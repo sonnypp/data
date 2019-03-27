@@ -131,11 +131,16 @@
 <script type="text/javascript">
   layui.config({
     base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
-  }).use(['mm','jquery','element','car','form'],function(){
-    var mm = layui.mm,$ = layui.$,element = layui.element,car = layui.car,form = layui.form;
+  }).use(['mm','jquery','element','car','form','layer'],function(){
+    var $ = layui.$,element = layui.element,car = layui.car,form = layui.form,layer = layui.layer;
 
     form.on('submit(commsue)',function(data){
-        window.location.href="{:U('/pay/info')}";
+        if(parseInt(document.getElementsByClassName('Selected-pieces')[0].innerHTML) === 0 || {$num} === 0) {
+            return layer.msg("您没选择购物的商品或者购物车没有需要购买的物品",{icon:2,shade:0.4,time:3000});
+        } else {
+            window.location.href="{:U('/pay/info')}";
+        }
+        return false;
     })
     car.init()
 });
