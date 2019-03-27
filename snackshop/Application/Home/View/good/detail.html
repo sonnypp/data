@@ -60,7 +60,38 @@
 
         </div>
     </div>
+
+    <div class="content content-nav-base buytoday-content">
+        <div id="list-cont">
+            <div class="product-list-box">
+                <div class="product-list w1200">
+                    <div class="tab-title">
+                        <a href="javascript:;" class="active tuang" data-content="relative">相关零食</a>
+                    </div>
+                    <div class="list-cont" cont = 'relative'>
+                        <div class="item-box layui-clear">
+                            <foreach name="recommd_goods" item="vo">
+                                <div class="item">
+                                    <img src="__PUBLIC__{$vo.goods_pic}" alt="" width="270px" height="300px" style="margin: 3px; border: black 2px">
+                                    <div class="text-box">
+                                        <p class="title">{$vo.goods_name}</p>
+                                        <p class="plic">
+                                            <span class="ciur-pic">￥{$vo.goods_shichangjia}</span>
+                                            <span class="discount"><a href="{:U('/details',array(goods_id=>$vo['goods_id']))}">详情</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </foreach>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+
 
 <include file="common/foot"/>
 <script type="text/javascript">
@@ -102,6 +133,19 @@
                 }
             })
             return false;
+        });
+
+        $('.sort a').on('click',function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+        $('.list-box dt').on('click',function(){
+            if($(this).attr('off')){
+                $(this).removeClass('active').siblings('dd').show()
+                $(this).attr('off','')
+            }else{
+                $(this).addClass('active').siblings('dd').hide()
+                $(this).attr('off',true)
+            }
         })
     });
 </script>

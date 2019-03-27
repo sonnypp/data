@@ -168,6 +168,13 @@ class GoodController extends Controller
         $logo_pic = $logo->where($l_map)->find();
         $this->assign("logo_img",$logo_pic["logo_pic"]);
 
+
+        //相关零食推荐
+        $r_map["goods_catelog_id"] = $fd["goods_catelog_id"];
+        $r_map["goods_Del"] = 'no';
+        $recommd_goods = $goods->where($r_map)->order('goods_id desc')->limit(4)->select();
+
+        $this->assign("recommd_goods",$recommd_goods);
         $this->assign("user",$user);
         $this->assign("num",$num);
         $this->assign("goods",$fd);
