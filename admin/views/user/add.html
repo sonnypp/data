@@ -1,0 +1,96 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                         <span>用户添加</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" lay-filter="formAddFilter">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">用户名</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_name" placeholder="请输入用户名.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">密  码</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_pw" placeholder="请输入密码.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">姓  名</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_realname" placeholder="请输入真实姓名.." autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">性  别</label>
+                                <div class="layui-input-block">
+                                    <input type="radio" name="user_sex" value="男" title="男">
+                                    <input type="radio" name="user_sex" value="女" title="女" checked>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">手  机</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_tel" placeholder="请输入手机号码.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">Q  Q</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_qq" placeholder="请输入QQ.." autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">地  址</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="user_address" placeholder="请输入地址.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="form_add"> 添加 </button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    layui.use(['jquery',  'form'], function () {
+        var $ =layui.jquery;
+        var form = layui.form;
+        console.log(layui.cache.order_user_id);
+        form.render(null,"formAddFilter");
+        form.on('submit(form_add)',function(data) {
+            var field = data.field;
+            if(field.user_name == "" || field.user_pw == "" || field.user_realname =="" || field.user_tel == "" || field.user_qq == "" || field.user_address == "") {
+                return layer.msg("数据不能为空",{icon:2,time:3000,shade:0.4});
+            }
+            $.post("/api/admin.php/user/add", field, function (result) {
+                // 请求处理
+                if (result['code'] == 0) {
+                    layer.msg("添加成功",{icon:1,time:3000,shade:0.4},function(){
+                        window.location.href="/admin/#/user/list";
+                    });
+                } else if (result['code'] == 101) {
+                    layer.msg("用户已存在",{icon:2,time:3000,shade:0.4});
+                } else {
+                    layer.msg("数据请求出错",{icon:2,time:3000,shade:0.4});
+                }
+            }, 'json');
+            return false;
+        });
+    });
+</script>

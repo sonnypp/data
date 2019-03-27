@@ -1,0 +1,66 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>食品类别添加</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" lay-filter="formAddFilter">
+
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">类别名称</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="catelog_name" placeholder="请输入类别名称.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="form_add"> 添加 </button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    layui.use(['jquery','form'], function () {
+        var $= layui.jquery,
+            form = layui.form;
+
+        form.render(null,"formAddFilter");
+
+
+
+        //监听提交
+        form.on('submit(form_add)', function (formdata) {
+            var field = formdata.field;
+            $.post("/api/admin.php/cate/add", field, function(result) {
+                // 请求处理
+                if(result['code'] == 0) {
+                    form.render(null,"formAddFilter");
+                    layer.msg("添加成功",{icon:1,time:4000,shade:0.4},function(){
+                        window.localtion.href = "#/food/catelist";
+                    });
+                } else {
+                    layer.msg("添加失败",{icon:2,time:4000,shade:0.4});
+                }
+            },'json');
+            return false;
+        });
+    })
+</script>
+
+<style scoped>
+
+</style>

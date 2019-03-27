@@ -1,0 +1,114 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>资讯列表</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="informationlist" lay-filter="informationlist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="informationBar">
+                            <a class="layui-btn layui-btn-success layui-btn-xs" lay-event="release">发布</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="norelease">不发布</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--修改-->
+<script type="text/html" id="add_tpl_hash">
+    <form class="layui-form" lay-filter="formEditFilter">
+
+    </form>
+</script>
+
+<script type="text/html" id="information_pic">
+    <img src="{{d.pic}}">
+</script>
+
+<script>
+    layui.use(['jquery',  'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#informationlist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/information/list",
+            title: '食品列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'informationlist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'information_id', title: 'ID', fixed: 'left', width: 130, align: 'center'},
+                {field: 'information_name', title: '资讯标题', width: 130, align: 'center'},
+                {field: 'information_content', title: '资讯内容', width: 130, align: 'center'},
+                {field: 'information_pic', title: '资讯图片', width: 130, align: 'center',templet:'#information_pic'},
+                {field: 'information_date', title: '发布时间', width: 180, align: 'center'},
+                {field: 'information_isShow', title: '是否发布', width: 100, align: 'center',templet:function(d){
+                        if(d.information_isshow == '0') {
+                            return '<p class="layui-text layui-bg-red">未发布</p>';
+                        }else {
+                            return '<p class="layui-text layui-bg-green">已发布</p>';
+                        }
+                    }},
+                {fixed: 'right', title: '操作', toolbar: '#informationBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+
+        //工具栏监听事件
+        table.on('tool(informationlist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'release') {
+                layer.confirm('确定发布吗？', function (index) {
+                    $.post("/api/admin.php/information/modify", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("发布成功，请刷新页面");
+                            layer.close(index);
+                        } else {
+                            layer.msg("下架失败");
+                        }
+                    },'json');
+
+                });
+            }else if(obj.event === 'norelease') {
+                layer.confirm('确定收回发布？', function (index) {
+                    $.post("/api/admin.php/information/del", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("回收成功，请刷新页面");
+                            layer.close(index);
+                        } else {
+                            layer.msg("上架失败");
+                        }
+                    },'json');
+
+                });
+            }
+        });
+    });
+</script>
+
+<style scoped>
+
+</style>

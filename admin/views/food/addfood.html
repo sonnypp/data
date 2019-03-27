@@ -1,0 +1,131 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>食品添加</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" lay-filter="formAddFilter">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">零食类别</label>
+                                <div class="layui-input-block">
+                                    <select name="goods_catelog_id" lay-filter="test" id="catelogSelect" required>
+
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">零食名称</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="goods_name" placeholder="请输入零食名称.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">零食描述</label>
+                                <div class="layui-input-block">
+                                    <textarea type="text" name="goods_miaoshu" id="LAY_miaoshu" lay-verify="goods_miaoshu" class="field-goods_miaoshu" required></textarea>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">零食图片</label>
+                                <div class="layui-input-block">
+                                    <div class="layui-col-lg5 layui-col-md5 layui-col-xs5">
+                                        <input type="text" name="g_picture" id="goods_pic" autocomplete="off" class="layui-input" readonly>
+                                    </div>
+                                    <button type="button" class="layui-btn" id="goods_pic_upload">上传图片</button>
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">零食价格</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="goods_shichangjia" placeholder="请输入零食价格.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="form_add"> 添加 </button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    layui.use(['jquery',  'table', 'sidebar', 'layedit','upload','form'], function () {
+        var layedit = layui.layedit ,
+            $= layui.jquery,
+            form = layui.form;
+        var index = layedit.build('LAY_miaoshu');
+        var upload = layui.upload;
+        //普通图片上传
+        form.render(null,"formAddFilter");
+
+        //渲染类别
+        $.get("/api/admin.php/good/sort",function(res) {
+            var data = res.data;
+            $.each(data,function(index,item){
+                $("#catelogSelect").append("<option value="+item.catelog_id+">"+item.catelog_name+"</option>")
+            })
+            form.render(null,"formAddFilter");
+        })
+
+
+        form.verify({
+            goods_miaoshu:function(value) {
+                return layedit.sync(index);
+            }
+        })
+
+        //监听提交
+        form.on('submit(form_add)', function (formdata) {
+            var field = formdata.field;
+            $.post("/api/admin.php/good/add", field, function(result) {
+                // 请求处理
+                if(result['code'] == 0) {
+                    form.render(null,"formAddFilter");
+                    layer.msg("添加成功",{icon:1,time:4000,shade:0.4},function(){
+                        window.location.href = "#/food/list";
+                    });
+                } else {
+                    layer.msg("添加失败",{icon:2,time:4000,shade:0.4},function(){
+                        return false;
+                    });
+                }
+            },'json');
+            return false;
+        });
+
+
+
+        var uploadInst = upload.render({
+            elem: '#goods_pic_upload'
+            ,url: '/api/admin.php/pic/upload'
+            ,done: function(res){
+                //如果上传失败
+                if(res.code > 0){
+                    return layer.msg('上传失败');
+                } else {
+                    $("#goods_pic").attr("value",res.data);
+                    return layer.msg('上传成功');
+                }
+                //上传成功
+            }
+        });
+    })
+</script>
+
+<style scoped>
+
+</style>

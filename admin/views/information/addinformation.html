@@ -1,0 +1,103 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>资讯添加</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" lay-filter="formAddFilter">
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">资讯标题</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="information_name" placeholder="标题" autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">资讯内容</label>
+                                <div class="layui-input-block">
+                                    <textarea type="text" name="information_content" id="LAY_content" lay-verify="information_content" class="field-information_content" required></textarea>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">资讯图片</label>
+                                <div class="layui-input-block">
+                                    <div class="layui-col-lg5 layui-col-md5 layui-col-xs5">
+                                        <input type="text" name="i_picture" id="information_pic" autocomplete="off" class="layui-input" readonly>
+                                    </div>
+                                    <button type="button" class="layui-btn" id="information_pic_upload">上传图片</button>
+                                </div>
+                            </div>
+
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="form_add"> 添加 </button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    layui.use(['jquery',  'table', 'sidebar', 'layedit','upload','form'], function () {
+        var layedit = layui.layedit ,
+            $= layui.jquery,
+            form = layui.form;
+        var index = layedit.build('LAY_content');
+        var upload = layui.upload;
+        //普通图片上传
+        form.render(null,"formAddFilter");
+
+        form.verify({
+            information_content:function(value) {
+                return layedit.sync(index);
+            }
+        })
+
+        //监听提交
+        form.on('submit(form_add)', function (formdata) {
+            var field = formdata.field;
+            $.post("/api/admin.php/information/add", field, function(result) {
+                // 请求处理
+                if(result['code'] == 0) {
+                    form.render(null,"formAddFilter");
+                    layer.msg("添加成功");
+                } else {
+                    layer.msg("添加失败");
+                }
+            },'json');
+            return false;
+        });
+
+
+
+        var uploadInst = upload.render({
+            elem: '#information_pic_upload'
+            ,url: '/api/admin.php/pic/upload'
+            ,done: function(res){
+                //如果上传失败
+                if(res.code > 0){
+                    return layer.msg('上传失败');
+                } else {
+                    $("#information_pic").attr("value",res.data);
+                    return layer.msg('上传成功');
+                }
+                //上传成功
+            }
+        });
+    })
+</script>
+
+<style scoped>
+
+</style>

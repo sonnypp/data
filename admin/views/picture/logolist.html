@@ -1,0 +1,186 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    <span>logo图片列表</span>
+                    </a>
+                </div>
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <a  href="javascript:;" class="layui-btn" id="add5_hash">
+                            <i class="layui-icon">&#xe654;</i>
+                            <span>上传新图片</span>
+                        </a>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="logolist" lay-filter="logolist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="logoBar">
+                            <a class="layui-btn layui-btn-xs" lay-event="used">使用</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/html" id="add5_tpl_hash">
+    <form class="layui-form" lay-filter="formAddFilter5">
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">logo图片</label>
+            <div class="layui-input-block">
+                <div class="layui-col-lg7 layui-col-md7 layui-col-xs7">
+                    <input type="text" name="logoimg" id="b_pic" autocomplete="off" class="layui-input" readonly>
+                </div>
+                <button type="button" class="layui-btn" id="pic_upload">上传图片</button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="form_add5"> 确定上传</button>
+            </div>
+        </div>
+    </form>
+</script>
+
+
+<script type="text/html" id="banner_pic">
+    <img src="{{d.pic}}">
+</script>
+
+<script>
+    layui.use(['jquery', 'mockjs', 'table', 'sidebar', 'form','upload'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form,
+            upload = layui.upload;
+
+        form.render(null,"formAddFilter5");
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#logolist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/logo/list",
+            title: 'logo图片',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'logolist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {
+                    field: 'logo_id',
+                    title: 'ID',
+                    width: 40,
+                    fixed: 'left',
+                    unresize: true,
+                    sort: true,
+                    align: 'center'
+                },
+                {field: 'logo_pic', title: '图片内容', width: 130, align: 'center',templet:'#banner_pic'},
+                {
+                    field: 'logo_isInstead', title: '是否使用中', width: 130, align: 'center', templet: function (d) {
+                        if (d.logo_isinstead == 'no') {
+                            return '<p class="layui-bg-red">未使用</p>';
+                        } else {
+                            return '<p class="layui-bg-green">使用中</p>';
+                        }
+                    }
+                },
+                {fixed: 'right', title: '操作', toolbar: '#logoBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 5,
+        });
+
+        //工具栏监听事件
+        table.on('tool(logolist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'del') {
+                layer.confirm('确定删除？', function (index) {
+                    $.post("/api/admin.php/logo/del", data, function (result) {
+                        // 请求处理
+                        if (result['code'] == 0) {
+                            return layer.msg("删除成功，请刷新页面",{icon:1});
+                        } else if(result['code'] == 101) {
+                            return layer.msg("图片使用中....",{icon:2});
+                        } else {
+                            return layer.msg("删除失败",{icon:2});
+                        }
+                    }, 'json');
+
+                });
+            }
+            else if (obj.event === 'used') {
+                layer.confirm('确定使用？', function (index) {
+                    $.post("/api/admin.php/logo/modify", data, function (result) {
+                        // 请求处理
+                        if (result['code'] == 0) {
+                            return layer.msg("使用成功，请刷新页面",{icon:1});
+                        } else {
+                            return layer.msg("使用失败",{icon:2});
+                        }
+                    }, 'json');
+
+                });
+            }
+        });
+
+        $('#add5_hash').on('click', function () {
+            var that = this;
+
+            // console.log($('#search_tpl_hash').html());
+            sidebar.render({
+                elem: that,
+                content: $('#add5_tpl_hash').html(),
+                title: 'logo图片上传',
+                shade: true,
+                width: '500px', //可以设置百分比和px
+                done: function () {
+                    upload.render({
+                        elem: '#pic_upload'
+                        ,url: '/api/admin.php/image/upload'
+                        ,done: function(res){
+                            //如果上传失败
+                            if(res.code > 0){
+                                return layer.msg('上传失败',{icon:4});
+                            } else {
+                                $("#b_pic").attr("value",res.data);
+                                return layer.msg('上传成功',{icon:1});
+                            }
+                        }
+                    });
+                    //监听提交
+                    form.on('submit(form_add5)', function (data) {
+                        // layer.msg(JSON.stringify(data.field));
+                        $.post("/api/admin.php/logo/add",data.field,function(result){
+                            // 请求处理
+                            if (result['code'] == 0) {
+                                layer.msg("添加成功，请刷新页面",{icon:1});
+                            } else if(result['code'] == 101) {
+                                layer.msg("已添加过，请刷新页面",{icon:1});
+                            } else {
+                                layer.msg("添加失败",{icon:4});
+                            }
+                        },'json')
+                        return false;
+                    });
+                }
+            });
+        });
+
+
+
+    });
+</script>

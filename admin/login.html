@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>后台登录</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/body.css"/>
+    <link rel="stylesheet" type="text/css" href="css/layui.css"/>
+    <script type="text/javascript" src="layui.js"/>
+    <script type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <section id="content">
+        <form action="">
+            <h1>管理员登录</h1>
+            <div>
+                <input type="text" placeholder="用户名" required="" id="username" />
+            </div>
+            <div>
+                <input type="password" placeholder="密码" required="" id="password" />
+            </div>
+            <div class="">
+                <span class="help-block u-errormessage" id="js-server-helpinfo">&nbsp;</span>			</div>
+            <div>
+                <!-- <input type="submit" value="Log in" /> -->
+                <input type="submit" value="登录" class="btn btn-primary" id="js-btn-login"  lay-submit="" lay-filter = "login" />
+                <!-- <a href="#">Register</a> -->
+            </div>
+        </form><!-- form -->
+    </section><!-- content -->
+</div>
+<!-- container -->
+<script>
+    layui.use(['jquery','form','layer'],function(){
+        var $ = layui.jquery,
+            form = layui.form,
+            layer = layui.layer;
+        form.on('submit(login)',function() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if(username=="" || password == "") {
+                layer.msg("信息不允许为空",{icon:2,time:3000,shade:0.4});
+            } else{
+                $.post("/api/admin.php/login",{'username':username,'password':password},function(res){
+                    if(res.code == 0) {
+                        layer.msg('登录成功',{icon:1,time:3000,shade:0.4},function(){
+                            sessionStorage.admin = true;
+                            window.location.href="/admin";
+                        })
+                    } else {
+                        return layer.msg("信息有误",{icon:2,time:3000,shade:0.4});
+                    }
+                },'json')
+            }
+            return false;
+        })
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>订单列表</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="orderlist" lay-filter="orderlist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="orderBar">
+                            <a class="layui-btn layui-btn-xs" lay-event="userdetail">用户信息</a>
+                            <a class="layui-btn layui-btn-xs" lay-event="orderdetail">订单明细</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除订单</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/html" id="user_tpl_hash">
+    <form class="layui-form" lay-filter="userformFilter">
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-block">
+                <input type="text" name="user_name" placeholder="请输入用户名.." autocomplete="off" class="layui-input"
+                       readonly>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">姓名</label>
+            <div class="layui-input-block">
+                <input type="text" name="user_realname" placeholder="请输入真实姓名.." autocomplete="off" class="layui-input"
+                       readonly>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">性 别</label>
+            <div class="layui-input-block">
+                <input type="radio" name="user_sex" value="男" title="男" readonly>
+                <input type="radio" name="user_sex" value="女" title="女" readonly>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">手 机</label>
+            <div class="layui-input-block">
+                <input type="text" name="user_tel" placeholder="请输入手机号码.." autocomplete="off" class="layui-input"
+                       readonly>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">Q Q</label>
+            <div class="layui-input-block">
+                <input type="text" name="user_qq" placeholder="请输入QQ.." autocomplete="off" class="layui-input" readonly>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">地 址</label>
+            <div class="layui-input-block">
+                <input type="text" name="user_address" placeholder="请输入地址.." autocomplete="off" class="layui-input"
+                       readonly>
+            </div>
+        </div>
+    </form>
+</script>
+
+
+<script>
+    layui.use(['jquery', 'mockjs', 'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+        //第一个实例
+        var table = layui.table;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#orderlist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/order/list",
+            title: '订单列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'orderlist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'order_id', title: 'ID', width: 40, fixed: 'left', unresize: true, sort: true, align: 'center'},
+                {field: 'order_bianhao', title: '订单编号', width: 130, align: 'center'},
+                {field: 'order_jine', title: '订单金额', width: 100, align: 'center'},
+                {field: 'order_date', title: '订单时间', width: 110, align: 'center'},
+                {field: 'order_songhuodizhi', title: '送货地址', width: 130, align: 'center'},
+                {field: 'order_fukuangfangshi', title: '付款方式', width: 100, align: 'center'},
+                {
+                    field: 'order_zhuangtai', title: '受理情况', width: 100, align: 'center', templet: function (d) {
+                        if (d.order_zhuangtai == 'no') {
+                            return '<a class="layui-btn layui-btn-xs layui-btn-danger" lay-event="orderdo">未受理</a>';
+                        } else {
+                            return '已受理';
+                        }
+                    }
+                },
+                {fixed: 'right', title: '操作', toolbar: '#orderBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+        //工具栏监听事件
+        table.on('tool(orderlist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'del') {
+                layer.confirm('真的删除行么', function (index) {
+                    $.post("/api/admin.php/order/del", data, function (result) {
+                        // 请求处理
+                        if (result['code'] == 0) {
+                            layer.msg("删除成功");
+                            obj.del();
+                            layer.close(index);
+                        } else {
+                            layer.msg("删除失败");
+                        }
+                    }, 'json');
+
+                });
+            } else if (obj.event === 'orderdo') {
+                layer.confirm('确认受理？', function (index) {
+                    $.post("/api/admin.php/order/modify", data, function (result) {
+                        // 请求处理
+                        if (result['code'] == 0) {
+                            layer.msg("受理成功，请刷新页面");
+                            layer.close(index);
+                        } else {
+                            layer.msg("受理失败");
+                        }
+                    }, 'json');
+                });
+            } else if (obj.event === 'userdetail') {
+                var that = this;
+                form.render(null, 'userformFilter');
+                sidebar.render({
+                    elem: that,
+                    content: $('#user_tpl_hash').html(),
+                    title: '用户信息',
+                    shade: true,
+                    width: '500px', //可以设置百分比和px
+                    done: function () {
+                        var user_id = data['order_user_id'];
+                        // console.log(user_id);
+                        $.post("/api/admin.php/user/getuser", {id: user_id}, function (result) {
+                            if (result['code'] == 0) {
+                                form.val("userformFilter", result['data']);
+                            } else {
+                                layer.msg('出错啦~~~', {icon: 2, shade: 0.4});
+                            }
+                        }, 'json')
+
+                    }
+
+                });
+            } else if (obj.event === 'orderdetail') {
+
+            }
+        });
+    });
+</script>

@@ -1,0 +1,130 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>食品列表</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="foodlist" lay-filter="foodlist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="foodBar">
+                            <a class="layui-btn layui-btn-success layui-btn-xs" lay-event="tuijian">上架</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">下架</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--修改-->
+<script type="text/html" id="add_tpl_hash">
+    <form class="layui-form" lay-filter="formEditFilter">
+
+    </form>
+</script>
+
+<script type="text/html" id="goods_pic">
+    <img src="{{d.pic}}">
+</script>
+
+<script>
+    layui.use(['jquery',  'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#foodlist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/good/list",
+            title: '食品列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'foodlist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'goods_id', title: 'ID', fixed: 'left', width: 130, align: 'center'},
+                {field: 'goods_name', title: '零食名称', width: 130, align: 'center'},
+                {field: 'goods_miaoshu', title: '零食描述', width: 130, align: 'center'},
+                {field: 'goods_pic', title: '零食图片', width: 130, align: 'center',templet:'#goods_pic'},
+                {field: 'goods_cate', title: '零食类别', width: 130, align: 'center'},
+                {field: 'goods_shichangjia', title: '零食价格', width: 110, align: 'center',edit: 'text'},
+                {field: 'goods_del', title: '是否上架', width: 100, align: 'center',templet:function(d){
+                        if(d.goods_del == 'yes') {
+                            return '<p class="layui-text layui-bg-red">已下架</p>';
+                        }else {
+                            return '<p class="layui-text layui-bg-green">已上架</p>';
+                        }
+
+                    }},
+                {fixed: 'right', title: '操作', toolbar: '#foodBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+        //编辑修改零食价格
+        table.on('edit(foodlist)',function(obj){
+            var value = obj.value //得到修改后的值
+                ,data = obj.data //得到所在行所有键值
+                ,field = obj.field; //得到字段
+            data["goods_shichangjia"] = value;
+            $.post("/api/admin.php/good/modify",data,function(res){
+                if(res.code == 0) {
+                    layer.msg("零食价格修改成功");
+                } else {
+                    layer.msg("零食价格变动失败");
+                }
+            },'json');
+        })
+
+        //工具栏监听事件
+        table.on('tool(foodlist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'del') {
+                layer.confirm('确定下架吗？', function (index) {
+                    $.post("/api/admin.php/good/del", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("下架成功，请刷新页面",{icon:1});
+                            layer.close(index);
+                        } else {
+                            layer.msg("下架失败",{icon:2});
+                        }
+                    },'json');
+
+                });
+            }else if(obj.event === 'tuijian') {   //商品推荐
+                layer.confirm('确定要上架？', function (index) {
+                    $.post("/api/admin.php/good/shelf", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("上架成功，请刷新页面",{icon:1});
+                            layer.close(index);
+                        } else {
+                            layer.msg("上架失败",{icon:2});
+                        }
+                    },'json');
+
+                });
+            }
+        });
+    });
+</script>
+
+<style scoped>
+
+</style>

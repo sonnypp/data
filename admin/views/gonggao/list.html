@@ -1,0 +1,84 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>公告列表</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="gonggaolist" lay-filter="gonggaolist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="gonggaoBar">
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--用户编辑-->
+<script type="text/html" id="edit_tpl_hash">
+    <form class="layui-form" lay-filter="formEditFilter">
+
+    </form>
+</script>
+
+<script>
+    layui.use(['jquery', 'mockjs', 'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+        //第一个实例
+        var table = layui.table;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#gonggaolist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/gonggao/list",
+            title: '公告列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'gonggaolist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'gonggao_id', title: 'ID', width: 40, fixed: 'left', unresize: true, sort: true, align: 'center'},
+                {field: 'gonggao_title', title: '公告标题', width: 130, align: 'center'},
+                {field: 'gonggao_content', title: '公告内容', width: 100, align: 'center'},
+                {field: 'gonggao_date', title: '公告时间', width: 180, align: 'center'},
+                {fixed: 'right', title: '操作', toolbar: '#gonggaoBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+        //工具栏监听事件
+        table.on('tool(gonggaolist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'del') {
+                layer.confirm('真的删除行么', function (index) {
+                    $.post("/api/admin.php/gonggao/del", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("删除成功");
+                            obj.del();
+                            layer.close(index);
+                        } else {
+                            layer.msg("删除失败");
+                        }
+                    },'json');
+
+                });
+            }
+        });
+    });
+</script>
