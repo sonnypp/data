@@ -1,0 +1,70 @@
+[ 2019-03-19T12:57:50+08:00 ] 127.0.0.1 /snackshop/index.php/annoucement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+
+[ 2019-03-19T12:57:54+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2019-03-19T12:57:55+08:00 ] 127.0.0.1 /snackshop/index.php/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2019-03-19T12:57:56+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2019-03-19T12:58:00+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+
+[ 2019-03-19T12:59:20+08:00 ] 127.0.0.1 /snackshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2019-03-19T12:59:37+08:00 ] 127.0.0.1 /snackshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-03-19T12:59:46+08:00 ] 127.0.0.1 /snackshop/index.php/cgoods/catelog_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-03-19T12:59:53+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2019-03-19T13:03:14+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2019-03-19T13:03:16+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2019-03-19T13:03:21+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'sue' AND `user_pw` = 'swp...14' LIMIT 1   [ RunTime:0.0035s ]
+
+[ 2019-03-19T13:03:30+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+

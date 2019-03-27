@@ -1,0 +1,136 @@
+<include file="common/header" />
+
+<div class="content content-nav-base  login-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有商品</a>
+                    <a href="{:U('/buytoday')}">推荐商品</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-bg">
+        <div class="login-cont w1200">
+            <div class="layui-col-md7">
+                <p style="color:white">text</p>
+            </div>
+            <div class="layui-col-md5" style="padding-top: 100px">
+                <div class="layui-card">
+                    <div class="layui-card-body">
+                        <div class="layui-card-header">
+                            <span>用户注册</span>
+                        </div>
+                        <div class="layui-card-body">
+                            <form class="layui-form" lay-filter="formAddFilter">
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">用户名</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="user_name" placeholder="请输入用户名.." autocomplete="off" class="layui-input" required>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">密  码</label>
+                                    <div class="layui-input-block">
+                                        <input type="password" name="user_pw" placeholder="请输入密码.." autocomplete="off" class="layui-input" required>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">姓  名</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="user_realname" placeholder="请输入真实姓名.." autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">性  别</label>
+                                    <div class="layui-input-block">
+                                        <input type="radio" name="user_sex" value="男" title="男">
+                                        <input type="radio" name="user_sex" value="女" title="女" checked>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">手  机</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="user_tel" placeholder="请输入手机号码.." autocomplete="off" class="layui-input" required>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">Q  Q</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="user_qq" placeholder="请输入QQ.." autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">地  址</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="user_address" placeholder="请输入地址.." autocomplete="off" class="layui-input" required>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <div class="layui-input-block">
+                                        <button class="layui-btn layui-btn-lg  layui-btn-radius" lay-submit lay-filter="form_add"> 注册 </button>
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <div class="layui-input-block">
+                                        <div class="layui-inline">
+                                            <p> <a href="login.html" >已有账号可登陆</a>&nbsp;</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<include file="common/foot"/>
+<script type="text/javascript">
+    layui.config({
+        base: '__PUBLIC__res/static/js/util' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['jquery','form'],function(){
+        var $ = layui.$,form = layui.form;
+        form.render(null,"formAddFilter");
+
+        form.on("submit(form_add)",function(data){
+           // return  layer.msg("注册成功",{icon:1,time:3000,shade:0.4},function(){
+           //      window.location.href = "login.html";
+           //  });
+            var field = data.field;
+            if(field.user_name == "" || field.user_pw == "" || field.user_tel == "" || field.user_address == "") {
+                return layer.msg("数据不能为空",{icon:5,time:3000,shade:0.4},function(){
+                    return false;
+                });
+            }
+
+            $.post("/api/admin.php/user/add",data.field,function(result){
+                // 请求处理
+                if (result['code'] == 0) {
+                    return layer.msg("用户注册成功",{icon:1,time:3000,shade:0.4},function(){
+                         window.location.href = "login.html";
+                    });
+                } else if (result['code'] == 101) {
+                    return layer.msg("用户已存在",{icon:5,time:3000,shade:0.4},function(){
+                        return false;
+                    });
+                } else {
+                    return layer.msg("数据请求出错",{icon:2,time:3000,shade:0.4},function(){
+                        return false;
+                    });
+                }
+            },'json');
+            return false;
+        })
+    })
+</script>
+
+</body>
+</html>

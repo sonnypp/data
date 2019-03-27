@@ -1,0 +1,88 @@
+<include file="common/header" />
+
+  <div class="content content-nav-base  login-content">
+    <div class="main-nav">
+      <div class="inner-cont0">
+        <div class="inner-cont1 w1200">
+          <div class="inner-cont2">
+            <a href="{:U('/commodity')}" class="active">所有商品</a>
+            <a href="{:U('/buytoday')}">推荐商品</a>
+            <a href="{:U('/info')}">零食资讯</a>
+            <a href="{:U('/annoucement')}">零食公告</a>
+            <a href="{:U('/message')}">留言板</a>
+            <a href="{:U('/about')}">关于我们</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="login-bg">
+      <div class="login-cont w1200">
+        <div class="form-box">
+          <form class="layui-form" action="" lay-filter="loginForm">
+            <legend>用户登录</legend>
+            <div class="layui-form-item">
+              <div class="layui-inline iphone">
+                <div class="layui-input-inline">
+                  <i class="layui-icon layui-icon-cellphone iphone-icon"></i>
+                  <input type="text" name="user_name" id="user_name" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-inline iphone">
+                <div class="layui-input-inline">
+                  <i class="layui-icon layui-icon-cellphone iphone-icon"></i>
+                  <input type="password" name="user_pw" id="user_pw" lay-verify="required" placeholder="密  码" autocomplete="off" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-inline">
+
+                <p><a href="register.html" class="fl">立即注册</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" class="fr">忘记密码？</a></p>
+
+              </div>
+
+            </div>
+            <div class="layui-form-item login-btn">
+              <div class="layui-input-block">
+                <button class="layui-btn" lay-submit="" lay-filter="login" onclick="return false">登录</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<include file="common/foot"/>
+  <script type="text/javascript">
+   layui.config({
+      base: '__PUBLIC__res/static/js/util' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['jquery','form'],function(){
+          var $ = layui.$,form = layui.form;
+          form.render(null,"loginForm");
+          form.on("submit(login)",function(data){
+
+              var field = data.field;
+              if(field.user_name == "" || field.user_pw == "") {
+                  return layer.msg("数据不能为空",{icon:2,time:3000,shade:0.4},function(){
+                      return false;
+                  });
+              }
+
+              $.post("/snackshop/index.php/deallogin",data.field,function(result){
+                  // 请求处理
+                  if (result['code'] == 0) {
+                      return layer.msg("用户登录成功",{icon:1,time:3000,shade:0.4},function(){
+                          window.location.href = "{:U('/index')}";
+                      });
+                  } else {
+                      return layer.msg("数据请求出错",{icon:2,time:3000,shade:0.4},function(){
+                          return false;
+                      });
+                  }
+              },'json')
+              return false;
+          })
+    })
+  </script>
+
+</body>
+</html>

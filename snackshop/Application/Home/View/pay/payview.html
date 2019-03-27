@@ -1,0 +1,115 @@
+<include file="common/header" />
+
+<div class="content content-nav-base shopcart-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-bg w1200">
+        <h3>零食购物车</h3>
+        <p>爱上零食、爱上生活</p>
+    </div>
+    <div class="cart w1200">
+        <fieldset class="layui-elem-field layui-field-title" style="margin-top: 50px;">
+            <legend>确认订单</legend>
+        </fieldset>
+
+        <form class="layui-form" action="https://www.yeepay.com/app-merchant-proxy/node" lay-filter="confirmform" method="post">
+            <div class="layui-form-item">
+                <input type="hidden" name="p0_Cmd" value="{$data['p0_Cmd']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p1_MerId" value="{$data['p1_MerId']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p2_Order" value="{$data['p2_Order']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p3_Amt" value="{$data['p3_Amt']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p4_Cur" value="{$data['p4_Cur']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p5_Pid" value="{$data['p5_Pid']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p6_Pcat" value="{$data['p6_Pcat']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p7_Pdesc" value="{$data['p7_Pdesc']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p8_Url" value="{$data['p8_Url']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="p9_SAF" value="{$data['p9_SAF']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="pa_MP" value="{$data['pa_MP']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="pd_FrpId" value="{$data['pd_FrpId']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="pr_NeedResponse" value="{$data['pr_NeedResponse']}"/>
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="hmac" value="{$data['hmac']}"/>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">订单号</label>
+                <div class="layui-input-block">
+                    <input type="text" name="p2_Order"  value="{$data['p2_Order']}" class="layui-input" readonly>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">支付金额</label>
+                <div class="layui-input-block">
+                    <p><h3 style="color: red">{$data['price']}</h3></p>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">支付方式</label>
+                <div class="layui-input-block">
+                    <p><h3 style="color: green">{$data['payway']}</h3></p>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                        <input type="submit" class="layui-btn-primary layui-btn-fluid" value="确认支付" />
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+<include file="common/foot"/>
+
+<script type="text/javascript">
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm','jquery','element','car','form'],function(){
+        var mm = layui.mm,$ = layui.$,form = layui.form;
+        form.render(null,"confirmform");
+    });
+</script>
+</body>
+</html>

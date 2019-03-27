@@ -1,0 +1,111 @@
+<include file="common/header" />
+
+<div class="content content-nav-base datails-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="data-cont-wrap w1200">
+        <div class="crumb">
+            <a href="javascript:;">首页</a>
+            <span>></span>
+            <a href="javascript:;">所有商品</a>
+            <span>></span>
+            <a href="javascript:;">产品详情</a>
+        </div>
+        <form action="" lay-filter="goods" class="layui-form">
+            <div class="layui-form-item">
+                <input type="hidden" name="goods_id" value="{$goods.goods_id}" class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <input type="hidden" name="quantity" value="1" id="quantity" class="layui-input">
+            </div>
+
+            <div class="product-intro layui-clear">
+                <div class="preview-wrap">
+                    <a href="javascript:;"><img src="__PUBLIC__{$goods.goods_pic}"  width="400px" height="400px" style="margin: 3px; border: black 2px"></a>
+                </div>
+                <div class="itemInfo-wrap">
+                    <div class="itemInfo">
+                        <div class="title">
+                            <h4>{$goods.goods_name} </h4>
+                            <span><i class="layui-icon layui-icon-rate-solid"></i>收藏</span>
+                        </div>
+                        <div class="summary" style="height: auto">
+                            <p class="activity"><span>市场价</span><strong class="price"> ￥{$goods["goods_shichangjia"]}</strong></p>
+                            <p class="activity"><span>产品描述</span>{$goods.goods_miaoshu}</p>
+                        </div>
+                        <div class="choose-attrs">
+                            <div class="number layui-clear"><span class="title">数&nbsp;&nbsp;&nbsp;&nbsp;量</span><div class="number-cont"><span class="cut btn">-</span><input onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" maxlength="4" type="" name="" value="1"><span class="add btn">+</span></div></div>
+                        </div>
+                        <div class="choose-btns">
+                            <button class="layui-btn layui-btn-primary purchase-btn" lay-submit lay-filter="buy">立刻购买</button>
+                            <button class="layui-btn  layui-btn-danger car-btn" lay-submit lay-filter="add"><i class="layui-icon layui-icon-cart-simple"></i>加入购物车</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="layui-clear">
+
+        </div>
+    </div>
+</div>
+
+<include file="common/foot"/>
+<script type="text/javascript">
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm','jquery','form','layer'],function(){
+        var mm = layui.mm,$ = layui.$,form = layui.form,layer = layui.layer;
+        var cur = $('.number-cont input').val();
+        $('.number-cont .btn').on('click',function(){
+            if($(this).hasClass('add')){
+                cur++;
+            }else{
+                if(cur > 1){
+                    cur--;
+                }
+            }
+            $('.number-cont input').val(cur)
+            $('#quantity').val(cur);
+        })
+        form.render(null,'goods');
+        form.on('submit(buy)',function(data){
+            // console.log(data.field);
+            $.post("/snackshop/index.php/addcart",data.field,function (res) {
+                if(res.code == 0) {
+                    window.location.href="{:U('/shopcart')}";
+                } else {
+                    layer.msg("添加购物车失败");
+                }
+            })
+            return false;
+        })
+
+        form.on('submit(add)',function(data){
+            $.post("/snackshop/index.php/addcart",data.field,function (res) {
+                if(res.code == 0) {
+                    layer.msg("添加购物车成功，请继续购买");
+                } else {
+                    layer.msg("添加购物车失败");
+                }
+            })
+            return false;
+        })
+    });
+</script>
+
+
+</body>
+</html>

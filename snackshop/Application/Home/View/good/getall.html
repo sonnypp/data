@@ -1,0 +1,92 @@
+<include file="common/header" />
+
+<div class="content content-nav-base commodity-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="commod-cont-wrap">
+        <div class="commod-cont w1200 layui-clear">
+            <div class="left-nav">
+                <div class="title">所有分类</div>
+                <div class="list-box">
+                    <foreach name="list" item="vo">
+                        <dl>
+                            <dt>{$vo.catelog_name}</dt>
+                            <dd><a href="{:U('/cgoods',array(catelog_id=>$vo['catelog_id']))}">{$vo.catelog_name}</a></dd>
+                        </dl>
+                    </foreach>
+                </div>
+            </div>
+            <div class="right-cont-wrap">
+                <div class="right-cont">
+                    <div class="sort layui-clear">
+                        <a class="active" href="javascript:;" event = 'volume'>销量</a>
+                        <a href="javascript:;" event = 'price'>价格</a>
+                        <a href="javascript:;" event = 'newprod'>新品</a>
+                        <a href="javascript:;" event = 'collection'>收藏</a>
+                    </div>
+                    <div class="prod-number" style="padding-top:20px;padding-bottom: 50px">
+                        <h1 class="">所有零食</h1>
+                    </div>
+                    <div class="cont-list layui-clear" id="list-cont">
+                        <foreach name="goods" item = "fd">
+                            <div class="item">
+                                <div class="img">
+                                    <a href="{:U('/details',array(goods_id => $fd['goods_id']))}"><img src="__PUBLIC__{$fd.goods_pic}"  width="270px" height="250px" style="margin: 3px; border: black 2px"></a>
+                                </div>
+                                <div class="text">
+                                    <p class="title">{$fd.goods_name}</p>
+                                    <p class="price">
+                                        <span class="pri">￥{$fd.goods_shichangjia}</span>
+                                        <span class="nub">已售{$fd.xiaoshouliang}</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </foreach>
+                    </div>
+
+                    <div  style="text-align: center;" class="pages">{$page}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="common/foot"/>
+<script>
+
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm','laypage','jquery'],function(){
+        var laypage = layui.laypage,$ = layui.$,
+            mm = layui.mm;
+
+        $('.sort a').on('click',function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+        $('.list-box dt').on('click',function(){
+            if($(this).attr('off')){
+                $(this).removeClass('active').siblings('dd').show()
+                $(this).attr('off','')
+            }else{
+                $(this).addClass('active').siblings('dd').hide()
+                $(this).attr('off',true)
+            }
+        })
+
+    });
+</script>
+
+
+</body>
+</html>

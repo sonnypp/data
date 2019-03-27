@@ -1,0 +1,125 @@
+[ 2019-03-21T17:20:05+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000362s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+
+[ 2019-03-21T17:20:08+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+
+[ 2019-03-21T17:20:14+08:00 ] 127.0.0.1 /snackshop/index.php/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2019-03-21T17:20:16+08:00 ] 127.0.0.1 /snackshop/index.php/annoucement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2019-03-21T17:20:17+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002454s ]
+
+[ 2019-03-21T17:20:18+08:00 ] 127.0.0.1 /snackshop/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-03-21T17:20:19+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2019-03-21T17:20:22+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2019-03-21T17:20:31+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'sue' AND `user_pw` = 'swp...14' LIMIT 1   [ RunTime:0.0035s ]
+
+[ 2019-03-21T17:20:36+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'sue' AND `user_pw` = '123456' LIMIT 1   [ RunTime:0.0025s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\IndexController.class.php 第 178 行.
+
+[ 2019-03-21T17:20:40+08:00 ] 127.0.0.1 /snackshop/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-03-21T17:20:54+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2019-03-21T17:20:55+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-21T17:20:59+08:00 ] 127.0.0.1 /snackshop/index.php/mymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2019-03-21T17:20:59+08:00 ] 127.0.0.1 /snackshop/index.php/liuyan/mymessage?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'sue'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'sue' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-21T17:21:03+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-03-21T17:21:03+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2019-03-21T17:45:47+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0006s ]
+

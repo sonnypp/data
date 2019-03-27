@@ -1,0 +1,1517 @@
+[ 2019-03-26T13:58:38+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2019-03-26T13:58:41+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-03-26T14:32:45+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+
+[ 2019-03-26T14:32:47+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2019-03-26T14:37:16+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+
+[ 2019-03-26T14:37:19+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-03-26T14:37:20+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2019-03-26T14:37:22+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+
+[ 2019-03-26T14:37:54+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-26T14:38:03+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'liusan3' AND `user_pw` = '123456' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\IndexController.class.php 第 178 行.
+
+[ 2019-03-26T14:38:06+08:00 ] 127.0.0.1 /snackshop/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2019-03-26T14:38:11+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2019-03-26T14:38:13+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2019-03-26T14:40:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2019-03-26T14:41:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2019-03-26T14:41:52+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm?p2_Order=1553582509&username=liusan3&usertel=13555555555&useraddress=%E8%83%9C%E5%88%A9%E8%B7%AF99%E5%8F%B7&p3_Amt=0.01&pd_FrpId=ABC-NET
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+ERR: 非法操作:confirm
+
+[ 2019-03-26T14:44:38+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+
+[ 2019-03-26T14:45:04+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+
+[ 2019-03-26T14:45:07+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 非法操作:confirm
+
+[ 2019-03-26T14:45:34+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 非法操作:confirm
+
+[ 2019-03-26T14:47:43+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-03-26T14:47:56+08:00 ] 127.0.0.1 /snackshop/index.php/Index/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:pay
+
+[ 2019-03-26T14:48:21+08:00 ] 127.0.0.1 /snackshop/index.php/Index/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 非法操作:pay
+
+[ 2019-03-26T14:48:26+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2019-03-26T14:48:30+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-03-26T17:05:41+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+
+[ 2019-03-26T17:09:37+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+
+[ 2019-03-26T17:10:16+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2019-03-26T17:10:18+08:00 ] 127.0.0.1 /snackshop/index.php/details/goods_id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-03-26T17:10:21+08:00 ] 127.0.0.1 /snackshop/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 36 行.
+
+[ 2019-03-26T17:10:21+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-26T17:10:28+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2019-03-26T17:10:32+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2019-03-26T17:13:44+08:00 ] ::1 /snackshop/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=916253221437713I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553591428&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326171343&ro_BankOrderId=2019032630000005988063740200701&rb_BankId=NUCC-NET&rp_PayDate=20190326171330&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=d54a5196354798a5b4a3cae71bde988b&hmac_safe=d983ee601eccf0f3cbc1dd2333b7a1f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 非法操作:res
+
+[ 2019-03-26T17:22:42+08:00 ] ::1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=916253221437713I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553591428&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326171343&ro_BankOrderId=2019032630000005988063740200701&rb_BankId=NUCC-NET&rp_PayDate=20190326171330&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=d54a5196354798a5b4a3cae71bde988b&hmac_safe=d983ee601eccf0f3cbc1dd2333b7a1f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 非法操作:res
+
+[ 2019-03-26T17:22:55+08:00 ] 127.0.0.1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=916253221437713I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553591428&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326171343&ro_BankOrderId=2019032630000005988063740200701&rb_BankId=NUCC-NET&rp_PayDate=20190326171330&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=d54a5196354798a5b4a3cae71bde988b&hmac_safe=d983ee601eccf0f3cbc1dd2333b7a1f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 非法操作:res
+
+[ 2019-03-26T17:44:38+08:00 ] ::1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=916253221437713I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553591428&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326171343&ro_BankOrderId=2019032630000005988063740200701&rb_BankId=NUCC-NET&rp_PayDate=20190326171330&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=d54a5196354798a5b4a3cae71bde988b&hmac_safe=d983ee601eccf0f3cbc1dd2333b7a1f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007689s ]
+ERR: 非法操作:res
+
+[ 2019-03-26T17:44:39+08:00 ] ::1 /snackshop/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=916253221437713I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553591428&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326171343&ro_BankOrderId=2019032630000005988063740200701&rb_BankId=NUCC-NET&rp_PayDate=20190326171330&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=d54a5196354798a5b4a3cae71bde988b&hmac_safe=d983ee601eccf0f3cbc1dd2333b7a1f0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 非法操作:res
+
+[ 2019-03-26T17:44:58+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-03-26T17:45:01+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+
+[ 2019-03-26T17:45:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-03-26T17:45:07+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2019-03-26T17:46:50+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2019-03-26T17:47:05+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2019-03-26T17:47:34+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2019-03-26T17:47:38+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2019-03-26T17:47:40+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2019-03-26T17:47:48+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2019-03-26T17:48:07+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-03-26T17:49:05+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=418522378452292I&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553593660&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326174903&ro_BankOrderId=2019032630000005988970280311901&rb_BankId=NUCC-NET&rp_PayDate=20190326174851&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=1d342ef06e820f9ddfb78d1c035317de&hmac_safe=8ec9e8490acb31f186d1e941f3cd3628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2019-03-26T17:49:32+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+
+[ 2019-03-26T17:49:33+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-26T17:49:35+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-03-26T17:49:40+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+
+[ 2019-03-26T17:53:19+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2019-03-26T17:53:23+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-03-26T17:53:24+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2019-03-26T17:53:32+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2019-03-26T17:56:17+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+
+[ 2019-03-26T17:56:19+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-03-26T17:56:22+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-03-26T17:57:09+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2019-03-26T18:54:42+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+
+[ 2019-03-26T19:04:46+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+
+[ 2019-03-26T19:11:42+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+
+[ 2019-03-26T19:11:48+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2019-03-26T19:18:21+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2019-03-26T19:18:23+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2019-03-26T19:18:25+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2019-03-26T19:21:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-03-26T19:23:47+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2019-03-26T19:24:51+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2019-03-26T19:25:09+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2019-03-26T19:25:26+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2019-03-26T19:27:59+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+
+[ 2019-03-26T19:28:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-03-26T19:29:21+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-03-26T19:29:38+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-26T19:30:09+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2019-03-26T19:30:13+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2019-03-26T19:46:08+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2019-03-26T19:49:17+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+
+[ 2019-03-26T19:50:24+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2019-03-26T19:51:56+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2019-03-26T19:54:56+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2019-03-26T20:07:01+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+
+[ 2019-03-26T20:07:55+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994204981222B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=1553594179&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326175707&ro_BankOrderId=2019032630000005989200900312407&rb_BankId=NUCC-NET&rp_PayDate=20190326175656&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=5f1d0322798015ccd6c5a834af453fea&hmac_safe=1906575e57992fa955fe5d85e0504db8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2019-03-26T20:15:32+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+
+[ 2019-03-26T20:15:34+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2019-03-26T20:18:32+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+
+[ 2019-03-26T20:18:34+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-26T20:18:46+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,30   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:18:47+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-26T20:18:48+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:18:49+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:18:55+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-26T20:18:56+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:18:56+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:24:22+08:00 ] 127.0.0.1 /snackshop/index.php/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2019-03-26T20:24:34+08:00 ] 127.0.0.1 /snackshop/index.php/mymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2019-03-26T20:24:34+08:00 ] 127.0.0.1 /snackshop/index.php/liuyan/mymessage?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T20:27:20+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2019-03-26T20:27:22+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2019-03-26T20:27:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2019-03-26T20:27:54+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-03-26T20:38:38+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+
+[ 2019-03-26T20:39:01+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2019-03-26T20:42:33+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2019-03-26T20:42:46+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2019-03-26T20:43:11+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-03-26T20:43:19+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2019-03-26T20:43:24+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2019-03-26T20:44:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2019-03-26T20:44:08+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2019-03-26T20:44:28+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-03-26T20:44:38+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-03-26T20:48:23+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000339s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+
+[ 2019-03-26T20:48:27+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-03-26T20:49:06+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2019-03-26T20:49:28+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: Using $this when not in object context
+
+[ 2019-03-26T20:49:40+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2019-03-26T20:50:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-03-26T20:51:12+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-03-26T20:51:19+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-03-26T20:51:46+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-03-26T20:52:30+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2019-03-26T20:53:12+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2019-03-26T20:54:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2019-03-26T20:57:06+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2019-03-26T20:57:08+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2019-03-26T20:57:20+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-03-26T20:57:32+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-03-26T20:57:43+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2019-03-26T20:57:58+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2019-03-26T20:58:00+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-03-26T20:58:10+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-03-26T20:58:12+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-03-26T20:58:21+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-03-26T21:02:15+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2019-03-26T21:02:38+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2019-03-26T21:02:45+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+
+[ 2019-03-26T21:03:18+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+
+[ 2019-03-26T21:03:19+08:00 ] 127.0.0.1 /snackshop/index.php/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2019-03-26T21:03:22+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2019-03-26T21:03:24+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2019-03-26T21:03:28+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001691s ]
+
+[ 2019-03-26T21:03:59+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2019-03-26T21:04:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2019-03-26T21:04:21+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-03-26T21:19:14+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004834s ]
+
+[ 2019-03-26T21:19:31+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 非法操作:confirm
+
+[ 2019-03-26T21:20:04+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+ERR: 非法操作:confirm
+
+[ 2019-03-26T21:22:19+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+
+[ 2019-03-26T21:22:52+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2019-03-26T21:23:50+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 1364:Field 'order_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `t_order` (`order_bianhao`,`order_date`,`order_songhuodizhi`,`order_fukuangfangshi`,`order_jine`) VALUES ('201903262122199611','2019-03-26 21:23:50','胜利路99号','建设银行','4')
+
+[ 2019-03-26T21:24:37+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008705s ]
+
+[ 2019-03-26T21:27:39+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2019-03-26T21:27:58+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+
+[ 2019-03-26T21:28:41+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2019-03-26T21:34:34+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+
+[ 2019-03-26T21:35:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001311s ]
+
+[ 2019-03-26T21:35:15+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2019-03-26T21:35:16+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2019-03-26T21:35:39+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2019-03-26T21:36:14+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+
+[ 2019-03-26T21:37:07+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-03-26T21:37:21+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-03-26T21:40:47+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2019-03-26T21:41:12+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2019-03-26T21:46:04+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+
+[ 2019-03-26T21:46:09+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+
+[ 2019-03-26T21:47:44+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2019-03-26T21:47:45+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2019-03-26T21:47:48+08:00 ] 127.0.0.1 /snackshop/index.php/order/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0066s ]
+SQL: DELETE FROM `t_order` WHERE `order_id` = 13 [ RunTime:0.0124s ]
+
+[ 2019-03-26T21:48:41+08:00 ] 127.0.0.1 /snackshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2019-03-26T21:48:46+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2019-03-26T21:48:51+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-03-26T21:48:53+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2019-03-26T21:48:56+08:00 ] 127.0.0.1 /snackshop/index.php/details/goods_id/21.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2019-03-26T21:48:57+08:00 ] 127.0.0.1 /snackshop/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 36 行.
+
+[ 2019-03-26T21:48:58+08:00 ] 127.0.0.1 /snackshop/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 21 LIMIT 1   [ RunTime:0.0047s ]
+
+[ 2019-03-26T21:48:58+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-03-26T21:49:03+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2019-03-26T21:49:10+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'liusan3' AND `user_pw` = '123456' LIMIT 1   [ RunTime:0.0053s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\IndexController.class.php 第 178 行.
+
+[ 2019-03-26T21:49:14+08:00 ] 127.0.0.1 /snackshop/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-03-26T21:49:16+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2019-03-26T21:49:18+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2019-03-26T21:49:22+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2019-03-26T21:49:42+08:00 ] 127.0.0.1 /snackshop/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2019-03-26T21:49:43+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2019-03-26T21:49:44+08:00 ] 127.0.0.1 /snackshop/index.php/myinfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-03-26T21:49:45+08:00 ] 127.0.0.1 /snackshop/index.php/mymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-03-26T21:49:46+08:00 ] 127.0.0.1 /snackshop/index.php/liuyan/mymessage?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3'  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3' LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2019-03-26T21:49:46+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2019-03-26T21:49:47+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 1 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T21:49:48+08:00 ] 127.0.0.1 /snackshop/index.php/mymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-03-26T21:49:48+08:00 ] 127.0.0.1 /snackshop/index.php/liuyan/mymessage?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3'  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'liusan3' LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-26T21:49:49+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-03-26T21:49:56+08:00 ] 127.0.0.1 /snackshop/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-03-26T21:49:57+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-03-26T21:50:00+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2019-03-26T21:50:02+08:00 ] 127.0.0.1 /snackshop/index.php/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2019-03-26T21:50:06+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2019-03-26T21:50:07+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-03-26T21:50:09+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2019-03-26T21:50:11+08:00 ] 127.0.0.1 /snackshop/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-03-26T21:50:12+08:00 ] 127.0.0.1 /snackshop/index.php/annoucement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-03-26T21:50:13+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-03-26T21:50:14+08:00 ] 127.0.0.1 /snackshop/index.php/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+
+[ 2019-03-26T21:50:15+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2019-03-26T21:50:23+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-03-26T21:50:27+08:00 ] 127.0.0.1 /snackshop/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2019-03-26T21:50:30+08:00 ] 127.0.0.1 /snackshop/index.php/cgoods/catelog_id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-03-26T21:50:34+08:00 ] 127.0.0.1 /snackshop/index.php/cgoods/catelog_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-03-26T21:50:36+08:00 ] 127.0.0.1 /snackshop/index.php/cgoods/catelog_id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-03-26T21:51:19+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001109s ]
+
+[ 2019-03-26T21:51:23+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2019-03-26T21:51:36+08:00 ] 127.0.0.1 /snackshop/index.php/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2019-03-26T21:52:22+08:00 ] 127.0.0.1 /snackshop/index.php/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+
+[ 2019-03-26T21:52:26+08:00 ] 127.0.0.1 /snackshop/index.php/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-03-26T21:53:30+08:00 ] 127.0.0.1 /snackshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-03-26T21:55:28+08:00 ] 127.0.0.1 /snackshop/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000386s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+
+[ 2019-03-26T21:55:46+08:00 ] 127.0.0.1 /snackshop/index.php/deallogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'sue' AND `user_pw` = '123456' LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\IndexController.class.php 第 180 行.
+
+[ 2019-03-26T21:55:50+08:00 ] 127.0.0.1 /snackshop/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2019-03-26T21:55:52+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-03-26T21:55:52+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2019-03-26T21:55:57+08:00 ] 127.0.0.1 /snackshop/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2019-03-26T21:55:59+08:00 ] 127.0.0.1 /snackshop/index.php/details/goods_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2019-03-26T21:56:01+08:00 ] 127.0.0.1 /snackshop/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 5 LIMIT 1   [ RunTime:0.0022s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\snackshop\Application\Home\Controller\CarController.class.php 第 36 行.
+
+[ 2019-03-26T21:56:03+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-03-26T21:56:05+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2019-03-26T21:56:11+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2019-03-26T21:56:52+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215651&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2019-03-26T21:57:07+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215704&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2019-03-26T21:57:17+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2019-03-26T21:57:18+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T21:58:31+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2019-03-26T21:58:31+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-26T21:59:15+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215651&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+
+[ 2019-03-26T21:59:22+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215651&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-03-26T21:59:25+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215651&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2019-03-26T21:59:26+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payresview?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994228971322B&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262156058442&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326215651&ro_BankOrderId=2019032630000005994963320202106&rb_BankId=NUCC-NET&rp_PayDate=20190326215649&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=c0e8f11564737edd3e0792261d3abe7b&hmac_safe=80f4f1907e5ea6d501cdcf805eb8e4c9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-03-26T21:59:51+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2019-03-26T21:59:51+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T21:59:53+08:00 ] 127.0.0.1 /snackshop/index.php/mymessage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-03-26T21:59:53+08:00 ] 127.0.0.1 /snackshop/index.php/liuyan/mymessage?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'sue'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_liuyan` WHERE `liuyan_user` = 'sue' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-26T21:59:55+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2019-03-26T21:59:56+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-26T22:09:33+08:00 ] 127.0.0.1 /snackshop/index.php/myorder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+
+[ 2019-03-26T22:09:34+08:00 ] 127.0.0.1 /snackshop/index.php/order/myorder?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_order` WHERE `order_user_id` = 7 LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-26T22:31:42+08:00 ] 127.0.0.1 /snackshop/index.php/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2019-03-26T22:31:44+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2019-03-26T22:31:45+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-03-26T22:31:49+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2019-03-26T22:31:53+08:00 ] 127.0.0.1 /snackshop/index.php/pay/payview
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2019-03-26T23:09:19+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004921s ]
+
+[ 2019-03-26T23:09:46+08:00 ] 127.0.0.1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2019-03-26T23:11:41+08:00 ] 127.0.0.1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2019-03-26T23:11:43+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+
+[ 2019-03-26T23:11:44+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2019-03-26T23:11:51+08:00 ] 127.0.0.1 /snackshop/index.php/pay/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2019-03-26T23:12:32+08:00 ] 127.0.0.1 /snackshop/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2019-03-26T23:12:33+08:00 ] 127.0.0.1 /snackshop/index.php/pay/info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2019-03-26T23:12:44+08:00 ] 127.0.0.1 /snackshop/index.php/pay/res?p1_MerId=10001126856&r0_Cmd=Buy&r1_Code=1&r2_TrxId=868994225012292C&r3_Amt=0.01&r4_Cur=RMB&r5_Pid=&r6_Order=201903262122199611&r7_Uid=&r8_MP=&r9_BType=1&ru_Trxtime=20190326212349&ro_BankOrderId=2019032630000005994420590200000&rb_BankId=NUCC-NET&rp_PayDate=20190326212338&rq_CardNo=&rq_SourceFee=0.0&rq_TargetFee=0.0&hmac=cf03c691a71f50164e52182c3287e811&hmac_safe=018f232af7a1c38ae7d6558685487809
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+

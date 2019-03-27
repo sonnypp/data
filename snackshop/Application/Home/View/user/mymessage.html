@@ -1,0 +1,122 @@
+<include file="common/header"/>
+
+
+<div class="content content-nav-base datails-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="data-cont-wrap w1200">
+        <div class="crumb">
+            <a href="javascript:;">用户</a>
+            <span>></span>
+            <a href="javascript:;">我的留言</a>
+        </div>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <div class="layui-col-xs12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">
+                            <span>我的留言列表</span>
+                            </a>
+                        </div>
+                        <div class="layui-card-body">
+                            <div class="layui-card-header">
+                            </div>
+
+                            <div class="layui-card-body">
+                                <table class="layui-hide" id="messagelist" lay-filter="messagelist"></table>
+                                <!--  前端动态表格工具栏--->
+                                <script type="text/html" id="messageBar">
+                                    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-clear">
+
+        </div>
+    </div>
+</div>
+
+<include file="common/foot"/>
+
+
+<script>
+
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm','laypage','jquery','table'],function(){
+        var $ = layui.$,table = layui.table;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#messagelist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/snackshop/index.php/liuyan/mymessage",
+            title: '留言列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'messagelist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'liuyan_id', title: 'ID', width: 40, fixed: 'left', unresize: true, sort: true, align: 'center'},
+                {field: 'liuyan_title', title: '留言标题', width: 130, align: 'center'},
+                {field: 'liuyan_content', title: '留言内容', width: 100, align: 'center'},
+                {field: 'liuyan_date', title: '留言时间', width: 180, align: 'center'},
+                {field: 'liuyan_isok', title: '受理情况', width: 100, align: 'center',templet:function(d){
+                        if(d.liuyan_isok == '0') {
+                            return '<p class="layui-bg-orange">待审核</p>';
+                        }else if(d.liuyan_isok == '1'){
+                            return '<p class="layui-bg-green">审核通过</p>';
+                        } else if(d.liuyan_isok == '2') {
+                            return '<p class="layui-bg-red">不通过</p>'
+                        }
+                    }},
+                {fixed: 'right', title: '操作', toolbar: '#messageBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+        //工具栏监听事件
+        table.on('tool(messagelist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'del') {
+                layer.confirm('真的删除行么', function (index) {
+                    $.post("/snackshop/index.php/liuyan/del", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("删除成功",{'icon':1});
+                            obj.del();
+                            layer.close(index);
+                        } else {
+                            layer.msg("删除失败",{'icon':2});
+                        }
+                    },'json');
+
+                });
+            }
+        });
+
+    });
+</script>
+</body>
+</html>

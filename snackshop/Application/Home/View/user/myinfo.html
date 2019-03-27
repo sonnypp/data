@@ -1,0 +1,108 @@
+<include file="common/header"/>
+
+<div class="content content-nav-base datails-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="data-cont-wrap w1200">
+        <div class="crumb">
+            <a href="javascript:;">用户</a>
+            <span>></span>
+            <a href="javascript:;">我的信息</a>
+        </div>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <div class="layui-col-xs12">
+                    <div class="layui-card">
+                        <div class="layui-card-body">
+                            <div class="layui-card-header">
+                                <span>修改密码</span>
+                            </div>
+                            <div class="layui-card-body" style="width: 700px">
+                                <form class="layui-form" lay-filter="formAddFilter">
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">原密码</label>
+                                        <div class="layui-input-block">
+                                            <input type="password" name="user_oldpw" placeholder="请输入旧密码..."
+                                                   autocomplete="off" class="layui-input" required>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <label class="layui-form-label">新密码</label>
+                                        <div class="layui-input-block">
+                                            <input type="password" name="user_newpw" placeholder="请输入新密码..."
+                                                   autocomplete="off" class="layui-input" required>
+                                        </div>
+                                    </div>
+                                    <div class="layui-form-item">
+                                        <div class="layui-input-block">
+                                            <button class="layui-btn" lay-submit lay-filter="form_change"> 确认修改</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-clear">
+
+        </div>
+    </div>
+</div>
+
+<include file="common/foot"/>
+
+
+<script>
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['jquery', 'form', 'layer'], function () {
+        var $ = layui.$, form = layui.form, layer = layui.layer;
+
+        form.render(null, 'formAddFilter');
+        form.on('submit(form_change)', function (data) {
+            var field = data.field;
+            {
+                if (field.user_oldpw == field.user_newpw) {
+                    layer.msg("新旧密码不能相同", {icon: 5, time: 3000, shade: 0.4});
+                } else {
+                    $.post("/snackshop/index.php/pwmodify", field, function (result) {
+                        if (field.user_oldpw == field.user_newpw) {
+                            return layer.msg("新旧密码不能相同", {icon: 5, time: 3000, shade: 0.4});
+                        } else {
+                            if (result['code'] == 0) {
+                                return layer.msg("密码修改成功，请重新登录", {icon: 1, time: 3000, shade: 0.4}, function () {
+                                    window.location.href = "login.html";
+                                });
+                            } else if (result['code'] == 103) {
+                                return layer.msg("原密码有误", {icon: 2, time: 3000, shade: 0.4}, function () {
+                                    return false;
+                                });
+                            } else {
+                                return layer.msg("数据请求出错", {icon: 2, time: 3000, shade: 0.4}, function () {
+                                    return false;
+                                });
+                            }
+                        }
+                    }, 'json')
+                }
+                return false;
+            }
+        })
+    });
+</script>
+</body>
+</html>

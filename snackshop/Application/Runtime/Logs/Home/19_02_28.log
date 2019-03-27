@@ -1,0 +1,774 @@
+[ 2019-02-28T11:00:47+08:00 ] 127.0.0.1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2019-02-28T11:13:52+08:00 ] 127.0.0.1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2019-02-28T11:14:35+08:00 ] 127.0.0.1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000659s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003325s ]
+
+[ 2019-02-28T11:15:57+08:00 ] 127.0.0.1 /tp3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-02-28T12:58:33+08:00 ] 127.0.0.1 /tp3/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002205s ]
+
+[ 2019-02-28T12:58:40+08:00 ] 127.0.0.1 /tp3/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-02-28T12:58:51+08:00 ] 127.0.0.1 /tp3/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载控制器:Home
+
+[ 2019-02-28T12:58:56+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2019-02-28T15:24:50+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 非法操作:
+
+[ 2019-02-28T15:25:19+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-02-28T15:25:19+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:19+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000401s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005148s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:19+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:23+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2019-02-28T15:25:23+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:23+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:23+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019872s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:23+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:32+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2019-02-28T15:25:33+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:33+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:33+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:25:37+08:00 ] 127.0.0.1 /tp3/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2019-02-28T15:25:37+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:25:37+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:25:37+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017104s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:25:37+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:26:01+08:00 ] 127.0.0.1 /tp3/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-02-28T15:26:01+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:26:01+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:26:01+08:00 ] 127.0.0.1 /tp3/index.php/index/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 非法操作:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002674s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:26:09+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:13+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001583s ]
+
+[ 2019-02-28T15:27:13+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:13+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:13+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:49+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2019-02-28T15:27:49+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:49+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:49+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:27:50+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:28:14+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001319s ]
+
+[ 2019-02-28T15:28:14+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:28:14+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:28:14+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:28:15+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:30:38+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+
+[ 2019-02-28T15:30:39+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:30:39+08:00 ] 127.0.0.1 /tp3/index.php/%7B/Public/static%7D/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载控制器:{
+
+[ 2019-02-28T15:30:39+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007783s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:30:39+08:00 ] 127.0.0.1 /tp3/index.php/%7B%7B/Public/static%7D%7D/lib/ckplayer/ckplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载控制器:{{
+
+[ 2019-02-28T15:31:11+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001879s ]
+
+[ 2019-02-28T15:31:56+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-02-28T15:33:43+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+
+[ 2019-02-28T15:36:40+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2019-02-28T15:36:45+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+
+[ 2019-02-28T15:36:48+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-02-28T15:36:49+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2019-02-28T15:36:53+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2019-02-28T15:37:19+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2019-02-28T15:37:20+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2019-02-28T15:37:23+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2019-02-28T15:37:25+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-02-28T15:43:33+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+
+[ 2019-02-28T15:43:43+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-02-28T15:43:47+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005614s ]
+
+[ 2019-02-28T16:13:59+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005584s ]
+
+[ 2019-02-28T16:44:02+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+
+[ 2019-02-28T16:44:04+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+
+[ 2019-02-28T16:44:05+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-02-28T16:44:31+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2019-02-28T17:50:21+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+
+[ 2019-02-28T17:50:22+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-02-28T18:05:23+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+
+[ 2019-02-28T18:05:25+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2019-02-28T18:05:27+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2019-02-28T18:05:30+08:00 ] 127.0.0.1 /tp3/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003163s ]
+
+[ 2019-02-28T19:29:35+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002731s ]
+
+[ 2019-02-28T19:29:54+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2019-02-28T19:29:56+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+
+[ 2019-02-28T19:30:01+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2019-02-28T19:33:21+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-02-28T19:33:23+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002978s ]
+
+[ 2019-02-28T19:36:43+08:00 ] 127.0.0.1 /tp3/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+
+[ 2019-02-28T20:51:49+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T20:51:50+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T20:52:42+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T20:53:00+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T20:53:00+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T20:54:50+08:00 ] 127.0.0.1 /tp3/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载控制器:Undefined
+
+[ 2019-02-28T20:54:50+08:00 ] 127.0.0.1 /tp3/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载控制器:Login
+
+[ 2019-02-28T20:55:03+08:00 ] 127.0.0.1 /tp3/error.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载控制器:Error
+
+[ 2019-02-28T21:04:39+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003586s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:07:02+08:00 ] 127.0.0.1 /tp3/member-list1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载控制器:Member-list1
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/css/theme/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载控制器:Css
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载控制器:Css
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/polyfill.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+ERR: 无法加载控制器:Polyfill.min.js
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/css/kitadmin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003893s ]
+ERR: 无法加载控制器:Css
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载控制器:Layui.js
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/kitadmin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+ERR: 无法加载控制器:Kitadmin.js
+
+[ 2019-02-28T21:11:00+08:00 ] 127.0.0.1 /tp3/mockjs-config.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载控制器:Mockjs-config.js
+
+[ 2019-02-28T21:14:00+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T21:14:02+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:14:06+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T21:14:07+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:14:08+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:14:09+08:00 ] 127.0.0.1 /tp3/member-list1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载控制器:Member-list1
+
+[ 2019-02-28T21:14:10+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:47:07+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003140s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:47:08+08:00 ] 127.0.0.1 /tp3/member-list1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载控制器:Member-list1
+
+[ 2019-02-28T21:47:09+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T21:50:50+08:00 ] 127.0.0.1 /tp3/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载控制器:Login
+
+[ 2019-02-28T21:50:54+08:00 ] 127.0.0.1 /tp3/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载控制器:Welcome
+
+[ 2019-02-28T21:50:55+08:00 ] 127.0.0.1 /tp3/member-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载控制器:Member-list
+
+[ 2019-02-28T22:00:51+08:00 ] 127.0.0.1 /tp3/admin-role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004212s ]
+ERR: 无法加载控制器:Admin-role
+
+[ 2019-02-28T22:00:51+08:00 ] 127.0.0.1 /tp3/admin-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+ERR: 无法加载控制器:Admin-list
+

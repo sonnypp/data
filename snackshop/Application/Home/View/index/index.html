@@ -1,0 +1,189 @@
+<include file="common/header"/>
+
+
+<div class="content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="category-con">
+        <div class="category-inner-con w1200">
+            <div class="category-type">
+                <h3>全部分类</h3>
+            </div>
+            <div class="category-tab-content">
+                <div class="nav-con">
+                    <ul class="normal-nav layui-clear">
+                        <foreach name="catelog" item="vo">
+                            <li class="nav-item">
+                                <div class="title">{$vo.catelog_name}</div>
+                                <p><a href="{:U('/cgoods',array(catelog_id=>$vo['catelog_id']))}">{$vo.catelog_name}</a></p>
+                                <i class="layui-icon layui-icon-right"></i>
+                            </li>
+                        </foreach>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="category-banner">
+            <div class="w1200">
+                <img src="__PUBLIC__{$index_img}">
+            </div>
+        </div>
+    </div>
+    <div class="floors">
+        <div class="sk">
+            <div class="sk_inner w1200">
+                <div class="sk_hd">
+                    <a href="javascript:;">
+                        <img src="__PUBLIC__res/static/img/s_img1.jpg">
+                    </a>
+                </div>
+                <div class="sk_bd">
+                    <div class="layui-carousel" id="test1">
+                        <div carousel-item>
+                            <div class="item-box">
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img2.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img3.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img4.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img5.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-box">
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img2.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img3.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img4.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="javascript:;"><img src="__PUBLIC__res/static/img/s_img5.jpg"></a>
+                                    <div class="title">宝宝五彩袜棉质舒服</div>
+                                    <div class="price">
+                                        <span>￥49.00</span>
+                                        <del>￥99.00</del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-cont w1200" id="product-cont">
+        <div class="product-item product-item1 layui-clear">
+            <div class="left-title">
+                <h4><i>1F</i></h4>
+                <img src="__PUBLIC__res/static/img/icon_gou.png">
+                <h5>新品推荐</h5>
+            </div>
+            <div class="right-cont">
+                <a href="{:U('/buytoday')}" class="top-img"><img src="__PUBLIC__{$index_new_img}" alt=""></a>
+                <div class="img-box">
+                    <foreach name="g_new" item="vo">
+                        <a href="{:U('/details',array(goods_id=>$vo['goods_id']))}"><img src="__PUBLIC__{$vo.goods_pic}"></a>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+        <div class="product-item product-item2 layui-clear">
+            <div class="left-title">
+                <h4><i>2F</i></h4>
+                <img src="__PUBLIC__res/static/img/icon_gou.png">
+                <h5>热销零食</h5>
+            </div>
+            <div class="right-cont">
+                <a href="{:U('/buytoday')}" class="top-img"><img src="__PUBLIC__{$index_rexiao_img}" alt=""></a>
+                <div class="img-box">
+                    <foreach name="g_rexiao" item="vo">
+                        <a href="{:U('/details',array(goods_id=>$vo['goods_id']))}"><img src="__PUBLIC__{$vo.goods_pic}"></a>
+                    </foreach>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<include file="common/foot"/>
+<script type="text/javascript">
+
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm', 'carousel'], function () {
+        var carousel = layui.carousel,
+            mm = layui.mm;
+        var option = {
+            elem: '#test1'
+            , width: '100%' //设置容器宽度
+            , arrow: 'always'
+            , height: '298'
+            , indicator: 'none'
+        }
+        carousel.render(option);
+
+
+    });
+</script>
+</body>
+</html>

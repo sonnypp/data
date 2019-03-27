@@ -1,0 +1,5 @@
+[ 2019-03-22T13:28:30+08:00 ] 127.0.0.1 /snackshop/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+

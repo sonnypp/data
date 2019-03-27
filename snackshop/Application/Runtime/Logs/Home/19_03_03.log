@@ -1,0 +1,162 @@
+[ 2019-03-03T14:29:38+08:00 ] 127.0.0.1 /tp3/Public/res/static/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001695s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:29:38+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2019-03-03T14:29:38+08:00 ] 127.0.0.1 /tp3/Public/res/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016038s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:29:38+08:00 ] 127.0.0.1 /tp3/Public/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.073086s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/banner1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001771s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006950s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/icon_gou.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003739s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/hot7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/img12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001371s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/more1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/more2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/s_img11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2019-03-03T14:29:39+08:00 ] 127.0.0.1 /tp3/Public/res/static/img/more3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+
+[ 2019-03-03T14:29:49+08:00 ] 127.0.0.1 /tp3/Public/res/static/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:30:09+08:00 ] 127.0.0.1 /tp3/Public/res/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:30:09+08:00 ] 127.0.0.1 /tp3/Public/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-03T14:30:09+08:00 ] 127.0.0.1 /tp3/Public/res/static/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载控制器:Public
+
