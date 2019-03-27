@@ -90,9 +90,10 @@ layui.define(['layer','jquery'], function (exports) {
                                 yes: function (index, layero) {
                                     $.post("/api/index.php/goodsdel.do",{"goods_id":parseInt(goods_id.value)},function(res){
                                         if(res.code == 0) {
-                                            layer.msg("删除购物车商品成功");
-                                            layer.close(index)
-                                            that.parentNode.removeChild(that);
+                                            layer.msg("删除购物车商品成功,请重新加载页面",{icon:1,shade:0.4,time:3000},function() {
+                                                layer.close(index)
+                                                that.parentNode.removeChild(that);
+                                            });
                                         }
                                     })
                                 }
