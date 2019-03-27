@@ -1,0 +1,265 @@
+[ 2019-03-22T13:41:05+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'admin' LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2019-03-22T13:43:10+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'dddd' LIMIT 1   [ RunTime:0.0039s ]
+
+[ 2019-03-22T13:43:15+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'admin' LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2019-03-22T14:14:59+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-22T14:15:00+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2019-03-22T14:15:02+08:00 ] 127.0.0.1 /api/admin.php/recbanner/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `t_fourbanner` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no'  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-22T14:15:36+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2019-03-22T14:17:29+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2019-03-22T14:17:36+08:00 ] 127.0.0.1 /api/admin.php/user/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'suesue'  [ RunTime:0.0029s ]
+SQL: INSERT INTO `t_user` (`user_name`,`user_pw`,`user_realname`,`user_sex`,`user_tel`,`user_qq`,`user_address`) VALUES ('suesue','','','女','','','') [ RunTime:0.0202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001373s ]
+
+[ 2019-03-22T14:17:42+08:00 ] 127.0.0.1 /api/admin.php/user/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'suesue'  [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-03-22T14:17:44+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2019-03-22T14:17:45+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=2&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 5,5   [ RunTime:0.0005s ]
+
+[ 2019-03-22T14:17:49+08:00 ] 127.0.0.1 /api/admin.php/user/del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0051s ]
+SQL: UPDATE `t_user` SET `user_del`='yes' WHERE `user_id` = 17 [ RunTime:0.0129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2019-03-22T14:17:54+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0008s ]
+
+[ 2019-03-22T14:21:06+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0007s ]
+
+[ 2019-03-22T14:21:17+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0007s ]
+
+[ 2019-03-22T14:21:58+08:00 ] 127.0.0.1 /api/admin.php/user/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_user` WHERE `user_name` = 'tt'  [ RunTime:0.0025s ]
+SQL: INSERT INTO `t_user` (`user_name`,`user_pw`,`user_realname`,`user_sex`,`user_tel`,`user_qq`,`user_address`) VALUES ('tt','123456','tt','男','15659171860','384282882','fzu') [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2019-03-22T14:22:01+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0007s ]
+
+[ 2019-03-22T14:22:03+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=2&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 5,5   [ RunTime:0.0005s ]
+
+[ 2019-03-22T14:22:09+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-22T14:22:11+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=2&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 5,5   [ RunTime:0.0005s ]
+
+[ 2019-03-22T15:56:57+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000428s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_goods`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_goods` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2019-03-22T15:56:59+08:00 ] 127.0.0.1 /api/admin.php/information/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `t_information` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `t_information`  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_information` LIMIT 0,10   [ RunTime:0.0004s ]
+

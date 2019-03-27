@@ -1,0 +1,9 @@
+[ 2019-03-18T13:21:14+08:00 ] 127.0.0.1 /api/index.php/goodsdel.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 113 行.
+

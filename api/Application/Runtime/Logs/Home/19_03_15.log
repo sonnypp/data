@@ -1,0 +1,84 @@
+[ 2019-03-15T14:00:23+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-15T14:18:51+08:00 ] 127.0.0.1 /api/index.php/goodsdel.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 113 行.
+
+[ 2019-03-15T14:41:03+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-15T14:41:04+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-15T14:41:04+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-15T14:41:04+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-15T14:42:19+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-15T15:09:35+08:00 ] 127.0.0.1 /api/index.php/goodsminus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 88 行.
+
+[ 2019-03-15T16:05:50+08:00 ] 127.0.0.1 /api/Public/res/static/js/utilsidebar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载控制器:Public
+
+[ 2019-03-15T16:06:20+08:00 ] 127.0.0.1 /api/Public/res/static/js/utilsidebar.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载控制器:Public
+

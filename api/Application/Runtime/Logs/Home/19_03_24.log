@@ -1,0 +1,108 @@
+[ 2019-03-24T22:16:28+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-24T22:16:47+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:49+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:50+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:52+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:53+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:54+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:55+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:55+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:56+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:16:59+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+
+[ 2019-03-24T22:17:00+08:00 ] 127.0.0.1 /api/index.php/clear
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 135 行.
+

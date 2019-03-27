@@ -1,0 +1,188 @@
+[ 2019-03-19T12:58:20+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'admin' LIMIT 1   [ RunTime:0.0063s ]
+
+[ 2019-03-19T12:59:05+08:00 ] 127.0.0.1 /api/admin.php/logo/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `t_logo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T12:59:07+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-19T12:59:08+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T12:59:09+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-03-19T12:59:11+08:00 ] 127.0.0.1 /api/admin.php/banner1/modify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0020s ]
+SQL: UPDATE `t_onebanner` SET `one_banner_isInstead`='no' WHERE `one_banner_isDel` = 'no' AND `one_banner_id` = 10 [ RunTime:0.0112s ]
+SQL: UPDATE `t_onebanner` SET `one_banner_isInstead`='yes' WHERE `one_banner_isDel` = 'no' AND `one_banner_id` = 11 [ RunTime:0.0040s ]
+
+[ 2019-03-19T12:59:31+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0012s ]
+
+[ 2019-03-19T12:59:35+08:00 ] 127.0.0.1 /api/admin.php/banner1/modify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0020s ]
+SQL: UPDATE `t_onebanner` SET `one_banner_isInstead`='yes' WHERE `one_banner_isDel` = 'no' AND `one_banner_id` = 10 [ RunTime:0.0042s ]
+SQL: UPDATE `t_onebanner` SET `one_banner_isInstead`='no' WHERE `one_banner_isDel` = 'no' AND `one_banner_id` = 11 [ RunTime:0.0043s ]
+
+[ 2019-03-19T13:02:58+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2019-03-19T13:02:59+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T13:02:59+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0009s ]
+
+[ 2019-03-19T13:03:01+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T13:03:01+08:00 ] 127.0.0.1 /api/admin.php/recbanner/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `t_fourbanner` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0007s ]
+
+[ 2019-03-19T13:03:05+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T13:03:08+08:00 ] 127.0.0.1 /api/admin.php/recbanner/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `t_fourbanner` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no'  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2019-03-19T13:03:09+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-19T13:03:09+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0211s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+

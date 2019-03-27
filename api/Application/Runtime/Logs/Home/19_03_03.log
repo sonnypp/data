@@ -1,0 +1,44 @@
+[ 2019-03-03T14:29:37+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009015s ]
+
+[ 2019-03-03T14:30:13+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002227s ]
+
+[ 2019-03-03T14:30:18+08:00 ] 127.0.0.1 /api/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载控制器:Commodity
+
+[ 2019-03-03T14:30:33+08:00 ] 127.0.0.1 /api/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+ERR: 无法加载控制器:Commodity
+
+[ 2019-03-03T15:41:27+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003586s ]
+
+[ 2019-03-03T15:42:07+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+
+[ 2019-03-03T15:48:06+08:00 ] 127.0.0.1 /api/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载控制器:Login
+
+[ 2019-03-03T18:29:47+08:00 ] 127.0.0.1 /api/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+ERR: 无法加载控制器:Commodity
+

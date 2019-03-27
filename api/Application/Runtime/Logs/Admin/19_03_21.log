@@ -1,0 +1,496 @@
+[ 2019-03-21T12:47:20+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T12:51:59+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T12:52:17+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T12:57:14+08:00 ] 127.0.0.1 /api/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004189s ]
+
+[ 2019-03-21T12:57:23+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2019-03-21T12:58:45+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T12:59:32+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2019-03-21T12:59:49+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+
+[ 2019-03-21T13:03:31+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2019-03-21T13:03:53+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2019-03-21T13:04:22+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:04:47+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:08:25+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/admin.php/api/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002450s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:08:36+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/admin.php/api/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002160s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:29:17+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:39:12+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001122s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:39:51+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+
+[ 2019-03-21T13:41:52+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+
+[ 2019-03-21T13:44:22+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+
+[ 2019-03-21T13:44:38+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+
+[ 2019-03-21T13:44:47+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2019-03-21T13:47:02+08:00 ] 127.0.0.1 /api/admin.php/use/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载控制器:Use
+
+[ 2019-03-21T13:47:59+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2019-03-21T13:48:03+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2019-03-21T13:48:15+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2019-03-21T13:49:50+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+
+[ 2019-03-21T13:49:58+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2019-03-21T13:53:21+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003101s ]
+
+[ 2019-03-21T13:54:17+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003178s ]
+
+[ 2019-03-21T13:54:43+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2019-03-21T13:56:02+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2019-03-21T13:56:06+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-03-21T13:57:38+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002121s ]
+
+[ 2019-03-21T13:57:38+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2019-03-21T13:57:45+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2019-03-21T13:58:40+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007517s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T13:58:46+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:01:05+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:01:31+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+
+[ 2019-03-21T14:01:36+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-03-21T14:05:12+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:05:16+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:05:23+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:05:50+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2019-03-21T14:05:52+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:16:47+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+
+[ 2019-03-21T14:16:47+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2019-03-21T14:16:51+08:00 ] 127.0.0.1 /api/admin.php/api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+ERR: 无法加载控制器:Api
+
+[ 2019-03-21T14:19:59+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+
+[ 2019-03-21T14:26:55+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001355s ]
+
+[ 2019-03-21T14:27:17+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-03-21T14:28:28+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002516s ]
+
+[ 2019-03-21T14:28:33+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2019-03-21T14:42:49+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+
+[ 2019-03-21T14:44:07+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-03-21T14:44:15+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-03-21T14:46:16+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2019-03-21T14:47:07+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+
+[ 2019-03-21T14:50:21+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003868s ]
+
+[ 2019-03-21T14:50:35+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+
+[ 2019-03-21T14:50:43+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2019-03-21T14:51:12+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001514s ]
+
+[ 2019-03-21T14:51:31+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2019-03-21T14:51:39+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2019-03-21T15:14:43+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001261s ]
+
+[ 2019-03-21T15:14:55+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2019-03-21T15:15:03+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2019-03-21T15:15:10+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2019-03-21T15:17:57+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000382s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+
+[ 2019-03-21T15:18:08+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003864s ]
+
+[ 2019-03-21T15:33:21+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000357s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+
+[ 2019-03-21T15:45:58+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000297s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+
+[ 2019-03-21T15:47:36+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+
+[ 2019-03-21T15:47:52+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006572s ]
+
+[ 2019-03-21T15:51:55+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2019-03-21T15:53:31+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2019-03-21T15:53:39+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+
+[ 2019-03-21T15:53:48+08:00 ] 127.0.0.1 /api/admin.php/user/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2019-03-21T17:22:51+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'admin' LIMIT 1   [ RunTime:0.0031s ]
+
+[ 2019-03-21T17:22:57+08:00 ] 127.0.0.1 /api/admin.php/logo/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `t_logo` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no'  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2019-03-21T17:22:59+08:00 ] 127.0.0.1 /api/admin.php/recbanner/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `t_fourbanner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no'  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `t_fourbanner` WHERE `four_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-21T17:23:00+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-21T17:23:01+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2019-03-21T17:23:02+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0005s ]
+
+[ 2019-03-21T17:23:04+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2019-03-21T17:23:04+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+

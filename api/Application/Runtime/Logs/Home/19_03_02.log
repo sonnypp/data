@@ -1,0 +1,48 @@
+[ 2019-03-02T10:58:21+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T12:01:15+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:12:41+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:12:59+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:13:08+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:47:51+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:51:49+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载控制器:Publicundefined
+
+[ 2019-03-02T13:52:57+08:00 ] 127.0.0.1 /api/publicundefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载控制器:Publicundefined
+

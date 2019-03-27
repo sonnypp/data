@@ -1,0 +1,1528 @@
+[ 2019-03-09T15:23:42+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002209s ]
+
+[ 2019-03-09T15:23:51+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2019-03-09T15:23:52+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2019-03-09T15:23:53+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+
+[ 2019-03-09T15:24:02+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-03-09T15:25:46+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2019-03-09T15:25:47+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+
+[ 2019-03-09T15:25:49+08:00 ] 127.0.0.1 /api/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2019-03-09T15:26:06+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-03-09T15:26:09+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2019-03-09T15:26:11+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+
+[ 2019-03-09T15:28:03+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2019-03-09T15:28:12+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2019-03-09T15:28:14+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2019-03-09T15:28:23+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2019-03-09T15:28:27+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2019-03-09T15:28:40+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2019-03-09T15:28:49+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2019-03-09T15:28:50+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2019-03-09T15:28:51+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2019-03-09T15:28:55+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2019-03-09T15:32:06+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2019-03-09T15:32:56+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-03-09T15:32:59+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2019-03-09T15:34:31+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2019-03-09T15:34:33+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-03-09T15:34:35+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2019-03-09T15:34:36+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2019-03-09T15:34:36+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2019-03-09T15:34:37+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2019-03-09T15:36:59+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2019-03-09T15:37:00+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001442s ]
+
+[ 2019-03-09T15:37:01+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2019-03-09T15:37:44+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2019-03-09T15:37:59+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2019-03-09T15:38:01+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2019-03-09T15:38:02+08:00 ] 127.0.0.1 /api/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-03-09T15:38:12+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-03-09T15:38:13+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2019-03-09T15:38:14+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2019-03-09T15:38:38+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2019-03-09T15:40:41+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003523s ]
+
+[ 2019-03-09T15:40:43+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2019-03-09T15:40:47+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2019-03-09T15:40:48+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2019-03-09T15:40:49+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2019-03-09T15:40:51+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2019-03-09T15:40:53+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2019-03-09T15:41:38+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+
+[ 2019-03-09T15:51:53+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2019-03-09T15:51:55+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2019-03-09T15:51:56+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2019-03-09T15:51:57+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2019-03-09T15:52:30+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+
+[ 2019-03-09T15:53:17+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2019-03-09T15:53:48+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-03-09T15:54:15+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2019-03-09T15:54:17+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2019-03-09T15:54:18+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-09T15:54:19+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2019-03-09T15:54:19+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-03-09T15:54:20+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2019-03-09T15:54:21+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-03-09T15:54:23+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2019-03-09T15:54:24+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+
+[ 2019-03-09T15:54:50+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-03-09T15:54:51+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2019-03-09T15:54:52+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+
+[ 2019-03-09T15:54:53+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-03-09T15:54:53+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2019-03-09T15:54:54+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-03-09T15:54:55+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-03-09T15:54:55+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+
+[ 2019-03-09T15:55:07+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2019-03-09T15:55:08+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/p/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-03-09T15:55:09+08:00 ] 127.0.0.1 /api/index.php/Gonggao/index/index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-03-09T15:55:11+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2019-03-09T15:55:11+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-03-09T15:55:12+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-03-09T15:55:14+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2019-03-09T15:55:18+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2019-03-09T15:55:24+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-03-09T15:55:32+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-03-09T15:55:35+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-03-09T15:57:21+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+
+[ 2019-03-09T15:57:23+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2019-03-09T15:57:25+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2019-03-09T15:57:27+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2019-03-09T15:57:27+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-03-09T15:57:29+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001507s ]
+
+[ 2019-03-09T15:57:29+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-03-09T15:59:21+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-03-09T15:59:21+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-03-09T15:59:22+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+
+[ 2019-03-09T15:59:23+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2019-03-09T15:59:25+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+
+[ 2019-03-09T15:59:26+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-03-09T15:59:27+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2019-03-09T15:59:28+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-03-09T15:59:29+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-03-09T15:59:29+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-03-09T15:59:30+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+
+[ 2019-03-09T16:01:49+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2019-03-09T16:04:12+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+
+[ 2019-03-09T16:05:52+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2019-03-09T16:06:45+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+
+[ 2019-03-09T16:06:59+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2019-03-09T16:07:39+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2019-03-09T16:07:58+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-03-09T16:07:59+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-03-09T16:08:45+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+
+[ 2019-03-09T16:08:48+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2019-03-09T16:09:49+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2019-03-09T16:09:50+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-03-09T16:09:51+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2019-03-09T16:09:53+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+
+[ 2019-03-09T16:09:54+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2019-03-09T16:09:58+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2019-03-09T16:10:00+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2019-03-09T16:10:02+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2019-03-09T16:10:13+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-03-09T16:10:15+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2019-03-09T16:10:18+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2019-03-09T16:11:37+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2019-03-09T16:11:52+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+
+[ 2019-03-09T16:12:06+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2019-03-09T16:12:26+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-03-09T16:12:40+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2019-03-09T16:12:41+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2019-03-09T16:12:43+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2019-03-09T16:12:44+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2019-03-09T16:13:07+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-03-09T16:13:08+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-03-09T16:14:53+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2019-03-09T16:14:55+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+
+[ 2019-03-09T16:14:58+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-03-09T16:14:58+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+
+[ 2019-03-09T16:17:01+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2019-03-09T16:17:03+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: Class 'Home\Controller\Page' not found
+
+[ 2019-03-09T16:17:23+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-03-09T16:17:25+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-03-09T16:17:26+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2019-03-09T16:17:27+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2019-03-09T16:17:28+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-03-09T16:17:30+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-03-09T16:17:31+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2019-03-09T16:17:32+08:00 ] 127.0.0.1 /api/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2019-03-09T16:17:33+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2019-03-09T16:17:34+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2019-03-09T16:17:35+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2019-03-09T16:17:38+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-03-09T16:17:39+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2019-03-09T16:17:41+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+
+[ 2019-03-09T16:17:42+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-03-09T16:17:43+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-03-09T16:17:46+08:00 ] 127.0.0.1 /api/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2019-03-09T16:17:47+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001048s ]
+
+[ 2019-03-09T16:17:48+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2019-03-09T16:17:49+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2019-03-09T16:17:50+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2019-03-09T16:17:52+08:00 ] 127.0.0.1 /api/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2019-03-09T16:17:54+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+
+[ 2019-03-09T16:17:55+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2019-03-09T16:17:56+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2019-03-09T16:17:57+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2019-03-09T16:17:59+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2019-03-09T16:18:02+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2019-03-09T16:18:04+08:00 ] 127.0.0.1 /api/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2019-03-09T16:18:04+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-03-09T16:18:06+08:00 ] 127.0.0.1 /api/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2019-03-09T16:18:07+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2019-03-09T16:18:07+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2019-03-09T16:18:08+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2019-03-09T16:18:09+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2019-03-09T16:18:10+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-03-09T16:18:12+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+
+[ 2019-03-09T16:18:13+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2019-03-09T16:18:15+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2019-03-09T16:18:16+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-09T16:18:19+08:00 ] 127.0.0.1 /api/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-03-09T16:18:21+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-03-09T16:18:33+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+
+[ 2019-03-09T16:18:36+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2019-03-09T16:18:38+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-03-09T16:18:52+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2019-03-09T16:18:55+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2019-03-09T16:19:03+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2019-03-09T16:19:07+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+
+[ 2019-03-09T16:19:13+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-03-09T16:19:15+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2019-03-09T16:19:15+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-03-09T16:19:16+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2019-03-09T16:19:16+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2019-03-09T16:19:17+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2019-03-09T16:20:44+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2019-03-09T16:20:46+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2019-03-09T16:20:47+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-03-09T16:20:49+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2019-03-09T16:20:51+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2019-03-09T16:20:53+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2019-03-09T16:20:55+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-03-09T16:20:55+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-03-09T16:20:57+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2019-03-09T16:21:13+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2019-03-09T16:21:16+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+
+[ 2019-03-09T16:21:17+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-03-09T16:21:20+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/p/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2019-03-09T16:21:21+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/getall/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-03-09T16:21:23+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2019-03-09T16:21:24+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2019-03-09T16:21:26+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2019-03-09T16:21:27+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2019-03-09T16:22:01+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+
+[ 2019-03-09T16:22:02+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2019-03-09T16:22:04+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-03-09T16:22:05+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2019-03-09T16:22:06+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-03-09T16:22:08+08:00 ] 127.0.0.1 /api/index.php/Liuyan/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2019-03-09T16:22:41+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2019-03-09T16:22:42+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2019-03-09T16:22:43+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-03-09T16:22:44+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2019-03-09T16:22:46+08:00 ] 127.0.0.1 /api/index.php/Index/liuyan/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-03-09T16:22:48+08:00 ] 127.0.0.1 /api/index.php/Index/liuyan/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-03-09T16:22:51+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2019-03-09T16:22:53+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-03-09T16:22:54+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2019-03-09T16:23:26+08:00 ] 127.0.0.1 /api/index.php/Index/gonggao/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2019-03-09T16:23:29+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-03-09T16:23:30+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-03-09T16:23:31+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-03-09T16:23:32+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2019-03-09T16:23:33+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2019-03-09T16:24:23+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-03-09T16:24:24+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2019-03-09T16:24:25+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2019-03-09T16:24:29+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2019-03-09T16:24:33+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-03-09T16:24:37+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-03-09T16:24:42+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+
+[ 2019-03-09T16:29:25+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+
+[ 2019-03-09T16:29:26+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002122s ]
+
+[ 2019-03-09T16:29:27+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2019-03-09T16:29:28+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2019-03-09T16:29:29+08:00 ] 127.0.0.1 /api/index.php/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-03-09T16:29:30+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-03-09T16:29:31+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2019-03-09T16:29:34+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2019-03-09T16:29:35+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2019-03-09T16:29:35+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+
+[ 2019-03-09T16:29:36+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2019-03-09T16:29:43+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-03-09T16:29:46+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-09T16:29:49+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2019-03-09T16:29:52+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2019-03-09T16:30:02+08:00 ] 127.0.0.1 /api/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2019-03-09T16:30:12+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2019-03-09T16:30:24+08:00 ] 127.0.0.1 /api/index.php/shopcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+
+[ 2019-03-09T16:31:10+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2019-03-09T16:31:12+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2019-03-09T16:31:12+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-03-09T16:31:13+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2019-03-09T16:31:14+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-03-09T16:31:16+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2019-03-09T16:31:16+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2019-03-09T16:31:19+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003155s ]
+
+[ 2019-03-09T16:31:20+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2019-03-09T16:31:21+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2019-03-09T16:31:22+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2019-03-09T16:31:35+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2019-03-09T16:31:40+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-03-09T16:31:41+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-03-09T16:32:02+08:00 ] 127.0.0.1 /api/index.php/information.html?title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-03-09T16:32:02+08:00 ] 127.0.0.1 /api/index.php/information.html?title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2019-03-09T16:32:04+08:00 ] 127.0.0.1 /api/index.php/information.html?title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-03-09T16:32:06+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2019-03-09T16:32:08+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+
+[ 2019-03-09T16:32:33+08:00 ] 127.0.0.1 /api/index.php/Good/getall/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-03-09T16:32:35+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2019-03-09T16:32:45+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2019-03-09T17:00:53+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2019-03-09T17:00:54+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2019-03-09T17:00:55+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2019-03-09T17:01:01+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2019-03-09T17:01:03+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-03-09T20:38:19+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+
+[ 2019-03-09T20:38:22+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001475s ]
+
+[ 2019-03-09T20:38:23+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2019-03-09T20:38:25+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+
+[ 2019-03-09T20:38:26+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2019-03-09T20:38:29+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2019-03-09T20:38:30+08:00 ] 127.0.0.1 /api/index.php/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003121s ]
+
+[ 2019-03-09T20:38:31+08:00 ] 127.0.0.1 /api/index.php/buytoday.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2019-03-09T20:38:32+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+
+[ 2019-03-09T20:38:43+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2019-03-09T20:38:44+08:00 ] 127.0.0.1 /api/index.php/cgoods/catelog_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-03-09T20:38:48+08:00 ] 127.0.0.1 /api/index.php/details/goods_id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2019-03-09T20:38:57+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2019-03-09T20:38:59+08:00 ] 127.0.0.1 /api/index.php/gonggao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-03-09T20:39:01+08:00 ] 127.0.0.1 /api/index.php/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2019-03-09T20:39:04+08:00 ] 127.0.0.1 /api/index.php/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2019-03-09T20:39:06+08:00 ] 127.0.0.1 /api/index.php/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2019-03-09T20:39:11+08:00 ] 127.0.0.1 /api/index.ph/commodity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载控制器:Index.ph
+
+[ 2019-03-09T20:39:18+08:00 ] 127.0.0.1 /api/index.ph/commodity.htmp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载控制器:Index.ph
+
+[ 2019-03-09T20:39:23+08:00 ] 127.0.0.1 /api/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+

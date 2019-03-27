@@ -1,0 +1,53 @@
+[ 2019-03-13T17:59:19+08:00 ] 127.0.0.1 /api/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 33 行.
+
+[ 2019-03-13T17:59:23+08:00 ] 127.0.0.1 /api/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0024s ]
+
+[ 2019-03-13T17:59:25+08:00 ] 127.0.0.1 /api/index.php/goodsplus.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 65 行.
+
+[ 2019-03-13T17:59:28+08:00 ] 127.0.0.1 /api/index.php/goodsdel.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 113 行.
+
+[ 2019-03-13T17:59:53+08:00 ] 127.0.0.1 /api/index.php/addcart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] session_start(): A session had already been started - ignoring D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\api\Application\Home\Controller\CarController.class.php 第 33 行.
+

@@ -1,0 +1,333 @@
+[ 2019-03-06T12:14:47+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2019-03-06T12:14:49+08:00 ] 127.0.0.1 /api/admin.php/cate/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no' LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2019-03-06T12:14:51+08:00 ] 127.0.0.1 /api/admin.php/good/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0028s ]
+
+[ 2019-03-06T12:14:51+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2019-03-06T12:14:53+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=2&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2019-03-06T12:15:10+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2019-03-06T12:15:14+08:00 ] 127.0.0.1 /api/admin.php/order/modify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0049s ]
+SQL: UPDATE `t_order` SET `order_zhuangtai`='yes' WHERE `order_id` = 7 [ RunTime:0.0158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2019-03-06T12:15:22+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0036s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2019-03-06T12:15:32+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003451s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0190s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2019-03-06T12:15:34+08:00 ] 127.0.0.1 /api/admin.php/gonggao/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `t_gonggao` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no'  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no' LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2019-03-06T12:15:43+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0199s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2019-03-06T12:15:44+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2019-03-06T12:15:45+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0128s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2019-03-06T12:15:47+08:00 ] 127.0.0.1 /api/admin.php/cate/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no' LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2019-03-06T12:15:49+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0097s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2019-03-06T12:15:52+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=2&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2019-03-06T14:43:21+08:00 ] 127.0.0.1 /api/admin.php/gonggao/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `t_gonggao` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2019-03-06T14:43:53+08:00 ] 127.0.0.1 /api/admin.php/cate/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2019-03-06T14:43:54+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006751s ]
+
+[ 2019-03-06T14:43:57+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005984s ]
+
+[ 2019-03-06T14:44:00+08:00 ] 127.0.0.1 /api/admin.php/cate/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no' LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004036s ]
+
+[ 2019-03-06T14:44:03+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2019-03-06T14:44:06+08:00 ] 127.0.0.1 /api/admin.php/good/list?page=2&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `t_goods` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_catelog`  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_goods` WHERE `goods_Del` = 'no' LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
