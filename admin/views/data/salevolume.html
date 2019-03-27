@@ -1,1 +1,195 @@
-111
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    <span>销售量统计</span>
+                </div>
+                <div class="layui-card-body">
+                    <div class="layui-card">
+                        <div class="layui-card-header">
+                            <span>条形图统计</span>
+
+                        </div>
+                        <div class="layui-card-body">
+                            <div id="barchart" style="width: 600px;height:400px;"></div>
+                        </div>
+                    </div>
+                    <div class="layui-card">
+                        <div class="layui-card-header">
+                            <span>折线图统计</span>
+
+                        </div>
+                        <div class="layui-card-body">
+                            <div id="linechart" style="width: 600px; height: 400px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-card">
+                    <div class="layui-card-header">
+                        <span>饼状图统计</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <div id="piechart" style="width: 600px; height: 400px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+<script>
+
+
+
+    var lengend = [];
+    var data = [];
+    var data1 = [];
+    var data2 = [];
+    // 指定图表的配置项和数据
+    $.get("/api/admin.php/data/salesvolume",function(res){
+        lengend = res.lengend;
+        var series = res.data;
+        $.each(lengend,function(index, obj) {
+            var temp = {};
+            temp.name = obj;
+            temp.type = 'bar';
+            var t1 = [];
+            $.each(series[index],function(i,o) {
+                t1.push(o);
+            });
+            temp.data = t1;
+            data.push(temp);
+        })
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('barchart'));
+        var option = {
+            toolbox: {
+                show : true,
+                feature : {
+                    mark : {show: true},
+                    dataView : {show: true, readOnly: false},
+                    saveAsImage : {show: true}
+                }
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data:lengend
+            },
+            xAxis: {
+                data: ['周日','周一','周二','周三','周四','周五','周六']
+            },
+            yAxis: {},
+            series: data
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+
+        $.each(lengend,function(index, obj) {
+            var temp = {};
+            temp.name = obj;
+            temp.type = 'line';
+            temp.stack = '总量';
+            var t1 = [];
+            $.each(series[index],function(i,o) {
+                t1.push(o);
+            });
+            temp.data = t1;
+            data1.push(temp);
+        })
+        // 基于准备好的dom，初始化echarts实例
+        var myChart1 = echarts.init(document.getElementById('linechart'));
+        option = {
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data:lengend
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: ['周日','周一','周二','周三','周四','周五','周六']
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: data1
+        };
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option);
+
+        var temp = {};
+        temp.name = "访问来源";
+        temp.type = 'pie';
+        temp.radius = '50%';
+        temp.center = ['50%', '60%'];
+        temp.data = [];
+        $.each(lengend,function(index, obj) {
+            var temp1 = {}
+            temp1.name = obj;
+            var sum = 0;
+            $.each(series[index],function(i,o) {
+                sum+=parseInt(o);
+            });
+            temp1.value = sum;
+            temp.data.push(temp1);
+        })
+        data2.push(temp);
+        var myCharts1 = echarts.init(document.getElementById('piechart'));
+        option = {
+            title : {
+                text: '零食商城销售量',
+                subtext: '总体销售量',
+                x:'center'
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient : 'vertical',
+                x : 'left',
+                data:lengend
+            },
+            toolbox: {
+                show : true,
+                feature : {
+                    mark : {show: true},
+                    dataView : {show: true, readOnly: false},
+                    saveAsImage : {show: true}
+                }
+            },
+            calculable : true,
+            series : data2
+        };
+        myCharts1.setOption(option);
+    })
+
+    layui.use(['jquery', 'mockjs', 'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+
+    });
+</script>
