@@ -26,7 +26,7 @@ class LiuyanController extends Controller
         $p->setConfig('first', '首页');
         $page = $p->show();
 
-        $liuyan_list = $liuyan->where($map)->limit($p->firstRow,$p->listRows)->select();
+        $liuyan_list = $liuyan->where($map)->order('liuyan_id desc')->limit($p->firstRow,$p->listRows)->select();
 
         //购物车
         $shop_car = I("session.shop_cart");
@@ -71,7 +71,7 @@ class LiuyanController extends Controller
                 $res["data"] = "";
             }
         } else {
-            $res["code"] = 102;
+            $res["code"] = 103;
             $res["msg"] = "";
             $res["data"] = "";
         }
