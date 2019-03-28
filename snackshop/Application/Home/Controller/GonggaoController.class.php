@@ -26,7 +26,7 @@ class GonggaoController extends Controller
         $p->setConfig('first', '首页');
         $page = $p->show();
 
-        $gongao_list = $gonggao->where($map)->limit($p->firstRow,$p->listRows)->select();
+        $gongao_list = $gonggao->where($map)->order('gonggao_id desc')->limit($p->firstRow,$p->listRows)->select();
 
 
         //购物车
