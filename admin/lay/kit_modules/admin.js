@@ -42,7 +42,7 @@ layui.define(mods, function (e) {
             var t = this, a = {
                 routes: [{
                     path: "/",
-                    component: "views/index.html",
+                    component: "views/index/index.html",
                     name: "首页"
                 },{
                     path: "/picture/indexbanner1",
