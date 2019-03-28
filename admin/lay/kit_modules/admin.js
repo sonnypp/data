@@ -15,7 +15,7 @@ layui.define(mods, function (e) {
             shade: !0,
             direction: "left",
             dynamicRender: !0,
-            url: "views/table/teble2.html",
+            url: "views/order/orderdetail.html",
             width: "50%"
         }), a("#cc").on("click", function () {
             layui.sidebar.render({
@@ -23,7 +23,7 @@ layui.define(mods, function (e) {
                 title: "这是表单盒子",
                 shade: !0,
                 dynamicRender: !0,
-                url: "views/form/index.html",
+                url: "/order/detail",
                 width: "50%"
             })
         }), m.on("nav(header_right)", function (e) {
@@ -92,6 +92,10 @@ layui.define(mods, function (e) {
                     path:"/order/list",
                     component:"views/order/list.html",
                     name:"订单列表"
+                },{
+                    path: "/order/detail",
+                    component: "views/order/orderdetail.html",
+                    name: "订单详情页"
                 },{
                     path:"/food/list",
                     component:"views/food/list.html",
