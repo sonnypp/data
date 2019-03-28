@@ -54,6 +54,8 @@ return array(
 
         'order/list' => 'Order/olist',  //订单
         'order/modify' => 'Order/omodify',
+        'order/detail' => 'Order/odetail',
+        'order/del' => 'Order/odel',
 
         'good/list' => 'Goods/flist', //零食
         'good/add' => 'Goods/fadd',

@@ -124,11 +124,11 @@
                     $.post("/api/admin.php/order/del", data, function (result) {
                         // 请求处理
                         if (result['code'] == 0) {
-                            layer.msg("删除成功");
+                            layer.msg("删除成功",{icon:1,shade:0.4,time:3000});
                             obj.del();
                             layer.close(index);
                         } else {
-                            layer.msg("删除失败");
+                            layer.msg("删除失败",{icon:2,shade:0.4,time:3000});
                         }
                     }, 'json');
 
@@ -138,10 +138,10 @@
                     $.post("/api/admin.php/order/modify", data, function (result) {
                         // 请求处理
                         if (result['code'] == 0) {
-                            layer.msg("受理成功，请刷新页面");
+                            layer.msg("受理成功，请刷新页面",{icon:1,shade:0.4,time:3000});
                             layer.close(index);
                         } else {
-                            layer.msg("受理失败");
+                            layer.msg("受理失败",{icon:2,shade:0.4,time:3000});
                         }
                     }, 'json');
                 });
@@ -169,7 +169,15 @@
 
                 });
             } else if (obj.event === 'orderdetail') {
-
+                layui.cache.order_id = data.order_id;
+                sidebar.render({
+                    elem: this,
+                    title: "订单详细内容",
+                    shade: !0,
+                    dynamicRender: !0,
+                    url: "views/order/orderdetail.html?order_id="+data.order_id,
+                    width: "50%"
+                })
             }
         });
     });

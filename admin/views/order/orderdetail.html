@@ -1,0 +1,48 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>订单详情</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="orderdetaillist" lay-filter="orderdetaillist"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    layui.use(['jquery', 'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer;
+        //第一个实例
+        var table = layui.table;
+        // console.log(layui.cache.order_id)
+        var order_id = layui.cache.order_id;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#orderdetaillist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/order/detail?order_id="+order_id,
+            title: '订单详情',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'orderdetaillist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'num', title: '序列', fixed: 'left', unresize: true, sort: true, align: 'center'},
+                {field: 'goods_name', title: '零食名称',align: 'center'},
+                {field: 'goods_shichangjia', title: '零食单价', align: 'center'},
+                {field: 'goods_volume', title: '数量', align: 'center'}
+            ]],
+            page:false
+        });
+    });
+</script>
