@@ -140,6 +140,69 @@ class UserController extends Controller
         echo $this->ajaxReturn($res,'json');
     }
 
+    public function odetail()
+    {
+        $order_id = I("get.order_id");
+//        var_dump($order_id);exit;
+        $goods = M("goods");
+        $orderitem = M("orderitem");
+        $o_map["order_id"] = $order_id;
+        $order_item = $orderitem->where($o_map)->select();
+        if($order_item) {
+            $data = array();
+            foreach ($order_item as $key => $value) {
+                $temp = array();
+                $temp["num"] = $key+1;
+                $g_map["goods_id"] = $value["goods_id"];
+                $t_good = $goods -> where($g_map) -> find();
+                $temp["goods_name"] = $t_good["goods_name"];
+                $temp["goods_shichangjia"] = $t_good["goods_shichangjia"];
+                $temp["goods_volume"] = $value["goods_quantity"];
+                array_push($data,$temp);
+            }
+            $res["code"] = 0;
+            $res["data"] = $data;
+            $res["msg"] = "";
+        } else {
+            $res["code"] = 102;
+            $res["msg"] = "";
+            $res["data"] = "";
+        }
+        echo $this->ajaxReturn($res,'json');
+
+    }
+
+    public function orderdetail()
+    {
+        //购物车
+        $shop_car = I("session.shop_cart");
+        if(!$shop_car) {
+            $num = 0;
+        } else {
+            $num = count($shop_car);
+        }
+
+        //获取用户信息
+        $user = I("session.user");
+        $logo = M("logo");
+        $l_map["logo_isInstead"] = "yes";
+        $logo_pic = $logo->where($l_map)->find();
+        $this->assign("logo_img",$logo_pic["logo_pic"]);
+        $this->assign("user",$user);
+        $this->assign("num",$num);
+
+        $order_id = I("get.order_id");
+        $this->assign("order_id",$order_id);
+
+        $o_map["order_id"] = $order_id;
+        $order = M("order");
+        $findresult = $order->where($o_map)->find();
+        $this->assign("order_bianhao",$findresult["order_bianhao"]);
+
+        $this->display();
+
+    }
+
     //留言
     public function message()
     {

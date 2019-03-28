@@ -53,6 +53,8 @@ return array(
         "liuyan/mymessage" => "User/mlist",
         "liuyan/del" => "User/mdel",
         "order/myorder" => "User/olist",
+        "order/view" => "User/orderdetail",
+        "order/detail" => "User/odetail",
         "order/del" => "User/odel",
         "pwmodify" => "User/changepw",
 

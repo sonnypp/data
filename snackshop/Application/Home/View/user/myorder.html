@@ -37,7 +37,7 @@
                                 <table class="layui-hide" id="orderlist" lay-filter="orderlist"></table>
                                 <!--  前端动态表格工具栏--->
                                 <script type="text/html" id="orderBar">
-                                    <a class="layui-btn layui-btn-xs" lay-event="orderdetail">订单明细</a>
+                                    <a class="layui-btn layui-btn-xs" href="{:U('/order/view')}?order_id={{d.order_id}}">订单明细</a>
                                     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
                                 </script>
                             </div>
@@ -103,11 +103,11 @@
                     $.post("/snackshop/index.php/order/del", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("删除成功",{'icon':1});
+                            layer.msg("删除成功",{'icon':1,shade:0.4,time:3000});
                             obj.del();
                             layer.close(index);
                         } else {
-                            layer.msg("删除失败",{'icon':2});
+                            layer.msg("删除失败",{'icon':2,shade:0.4,time:3000});
                         }
                     },'json');
                 });

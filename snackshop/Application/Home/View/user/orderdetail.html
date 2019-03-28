@@ -1,0 +1,83 @@
+<include file="common/header"/>
+
+<div class="content content-nav-base datails-content">
+    <div class="main-nav">
+        <div class="inner-cont0">
+            <div class="inner-cont1 w1200">
+                <div class="inner-cont2">
+                    <a href="{:U('/commodity')}" class="active">所有零食</a>
+                    <a href="{:U('/buytoday')}">零食推荐</a>
+                    <a href="{:U('/info')}">零食资讯</a>
+                    <a href="{:U('/annoucement')}">零食公告</a>
+                    <a href="{:U('/message')}">留言板</a>
+                    <a href="{:U('/about')}">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="data-cont-wrap w1200">
+        <div class="crumb">
+            <a href="javascript:;">用户</a>
+            <span>></span>
+            <a href="javascript:;">我的订单</a>
+            <span>></span>
+            <a href="javascript:;">订单详情</a>
+        </div>
+        <div class="layui-fluid">
+            <div class="layui-row">
+                <div class="layui-col-xs12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">
+                            <span style="color: #9289ca">订单编号：{$order_bianhao}</span>
+                            </a>
+                        </div>
+                        <div class="layui-card-body">
+                            <div class="layui-card-header">
+                            </div>
+
+                            <div class="layui-card-body">
+                                <table class="layui-hide" id="orderdetail" lay-filter="orderdetail"></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-clear">
+
+        </div>
+    </div>
+</div>
+
+<include file="common/foot"/>
+
+
+<script>
+
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm','laypage','jquery','table'],function(){
+        var $ = layui.$,table = layui.table;
+        table.render({
+            //选择表格的id
+            elem: '#orderdetail',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "{:U('/order/detail')}?order_id={$order_id}",
+            title: '订单内容',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'orderdetail',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'num', title: '序列', fixed: 'left', unresize: true, sort: true, align: 'center'},
+                {field: 'goods_name', title: '零食名称',align: 'center'},
+                {field: 'goods_shichangjia', title: '零食单价', align: 'center'},
+                {field: 'goods_volume', title: '数量', align: 'center'}
+            ]],
+            page:false
+        });
+    });
+</script>
+</body>
+</html>

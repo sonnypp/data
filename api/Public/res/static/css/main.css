@@ -40,6 +40,8 @@ i{font-style: normal;}
     font-size: 0;
     overflow: hidden;
 }
+
+.content{min-height: 750px;}
 .content .layui-fluid{padding: 0;}
 .content .inner-cont1{height: 36px; line-height: 36px;}
 .content .inner-cont2{padding-left: 208px;}
