@@ -1,0 +1,1510 @@
+[ 2019-03-27T11:16:42+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:44+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:45+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:45+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:45+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:45+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:16:46+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'sue'@'localhost' (using password: YES)
+
+[ 2019-03-27T11:20:00+08:00 ] 127.0.0.1 /api/admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `t_admin` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `t_admin` WHERE `userName` = 'admin' AND `userPw` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2019-03-27T11:20:06+08:00 ] 127.0.0.1 /api/admin.php/logo/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `t_logo` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_logo` WHERE `logo_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0002s ]
+
+[ 2019-03-27T11:20:08+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2019-03-27T11:20:09+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2019-03-27T11:20:09+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2019-03-27T11:20:11+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0023s ]
+
+[ 2019-03-27T12:53:24+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0021s ]
+
+[ 2019-03-27T13:39:56+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+
+[ 2019-03-27T14:53:43+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0021s ]
+
+[ 2019-03-27T14:53:54+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+
+[ 2019-03-27T15:04:35+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:04:38+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:04:58+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:04:59+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:05:00+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:05:01+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:05:23+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:06:06+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:07:36+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:07:39+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:07:49+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:09:54+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:10:22+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:10:28+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:15:31+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:16:43+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:17:33+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:17:35+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:17:36+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:18:13+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:18:38+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:18:38+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:18:39+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:19:19+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:20:19+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:20:23+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:22:14+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:22:16+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:22:31+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:23:14+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T15:25:27+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:25:28+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T15:25:28+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T15:27:08+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019872s ]
+
+[ 2019-03-27T15:27:10+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2019-03-27T15:28:45+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T17:56:43+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:11:56+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0008s ]
+
+[ 2019-03-27T18:13:42+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:14:51+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T18:27:27+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0006s ]
+
+[ 2019-03-27T18:28:22+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:28:23+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:29:48+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:30:11+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:30:40+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:34:40+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:34:41+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0007s ]
+
+[ 2019-03-27T18:35:18+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:43:46+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T18:51:31+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:52:57+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T18:56:20+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T18:56:45+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T18:58:53+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:00:30+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:03:00+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:03:34+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0006s ]
+
+[ 2019-03-27T19:19:01+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:19:20+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:19:41+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:20:44+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:21:19+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:22:17+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:22:38+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:23:36+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:24:35+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:26:27+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:26:28+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:26:48+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:28:49+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:34:53+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:37:31+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T19:37:32+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:37:34+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:37:35+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T19:37:36+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0006s ]
+
+[ 2019-03-27T19:37:43+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:37:43+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:37:44+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:37:44+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:37:45+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0006s ]
+
+[ 2019-03-27T19:37:45+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0003s ]
+
+[ 2019-03-27T19:37:47+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T19:37:51+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T20:13:44+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T20:14:08+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2019-03-27T20:40:29+08:00 ] 127.0.0.1 /api/admin.php/user/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_user` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2019-03-27T20:40:30+08:00 ] 127.0.0.1 /api/admin.php/user/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `t_user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-03-27T20:44:08+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2019-03-27T20:44:14+08:00 ] 127.0.0.1 /api/admin.php/liuyan/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `t_liuyan`  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_liuyan` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2019-03-27T20:44:16+08:00 ] 127.0.0.1 /api/admin.php/gonggao/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `t_gonggao` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2019-03-27T20:44:18+08:00 ] 127.0.0.1 /api/admin.php/gonggao/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `t_gonggao` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2019-03-27T20:44:19+08:00 ] 127.0.0.1 /api/admin.php/liuyan/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `t_liuyan` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `t_liuyan`  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_liuyan` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-03-27T20:44:21+08:00 ] 127.0.0.1 /api/admin.php/gonggao/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `t_gonggao` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_gonggao` WHERE `gonggao_del` = 'no' LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2019-03-27T22:08:06+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0005s ]
+
+[ 2019-03-27T22:55:48+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2019-03-27T22:55:51+08:00 ] 127.0.0.1 /api/admin.php/user/getuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `t_user` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-03-27T23:16:21+08:00 ] 127.0.0.1 /api/admin.php/information/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `t_information` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_information`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_information` LIMIT 0,10   [ RunTime:0.0003s ]
+
+[ 2019-03-27T23:16:23+08:00 ] 127.0.0.1 /api/admin.php/information/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `t_information` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `t_information`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_information` LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2019-03-27T23:33:57+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2019-03-27T23:34:01+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=2&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_order` LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2019-03-27T23:34:04+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2019-03-27T23:34:11+08:00 ] 127.0.0.1 /api/admin.php/banner1/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `t_onebanner` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `t_onebanner` WHERE `one_banner_isDel` = 'no' LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2019-03-27T23:34:12+08:00 ] 127.0.0.1 /api/admin.php/banner2/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `t_twobanner` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_twobanner` WHERE `two_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0006s ]
+
+[ 2019-03-27T23:34:12+08:00 ] 127.0.0.1 /api/admin.php/banner3/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `t_threebanner` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_threebanner` WHERE `three_banner_isDel` = 'no' LIMIT 0,5   [ RunTime:0.0003s ]
+
+[ 2019-03-27T23:36:09+08:00 ] 127.0.0.1 /api/admin.php/data/sales
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `t_sales` [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_sales`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T23:36:10+08:00 ] 127.0.0.1 /api/admin.php/data/salesvolume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `t_salesvolume` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `t_catelog` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `t_catelog` WHERE `catelog_del` = 'no'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_salesvolume`  [ RunTime:0.0004s ]
+
+[ 2019-03-27T23:36:40+08:00 ] 127.0.0.1 /api/admin.php/user/list?page=1&limit=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_user` WHERE `user_del` = 'no' LIMIT 0,5   [ RunTime:0.0003s ]
+
+[ 2019-03-27T23:36:43+08:00 ] 127.0.0.1 /api/admin.php/order/list?page=1&limit=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `t_order` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `t_order`  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_order` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
