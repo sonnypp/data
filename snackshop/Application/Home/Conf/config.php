@@ -5,6 +5,7 @@ return array(
     //自定义路径常量的配置项
     'TMPL_PARSE_STRING' =>  array(
         '__PUBLIC__'=>'/api/Public/',
+        '__STATIC__'=>'/api/Public/static',
     ),
     //设置默认拒绝访问模块
 //    'MODULE_DENY_LIST' => array('Common','Runtime'),
