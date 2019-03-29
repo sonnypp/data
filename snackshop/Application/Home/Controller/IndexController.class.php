@@ -29,9 +29,9 @@ class IndexController extends Controller {
         $cate = $catelog->where($map)->select();  //商品类别
 
         $g_map["goods_Del"] = "no";
-        $g_new = $goods->where($g_map)->order("goods_date asc")->field(array('goods_id','goods_pic'))->limit(5)->select();  //新品推荐
+        $g_new = $goods->where($g_map)->order("goods_id asc")->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->limit(5)->select();  //新品推荐
 
-        $g_all =  $goods->where($g_map)->field(array('goods_id','goods_pic'))->select();   //热销推荐
+        $g_all =  $goods->where($g_map)->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->select();   //热销推荐
         //计算销售量
         foreach ($g_all as $key => $item) {
             $i_map["goods_id"] = $item[goods_id];
@@ -65,7 +65,8 @@ class IndexController extends Controller {
         //获取用户信息
         $user = I("session.user");
 
-
+        $this->assign("new_view",array_slice($g_new,0,4));
+        $this->assign('rexiao_view',array_slice($g_rexiao,0,4));
         $this->assign("index_img",$b1_img["one_banner_pic"]);
         $this->assign("index_new_img",$b2_img["two_banner_pic"]);
         $this->assign("index_rexiao_img",$b3_img["three_banner_pic"]);
@@ -117,9 +118,9 @@ class IndexController extends Controller {
             $cate = $catelog->where($map)->select();  //商品类别
 
             $g_map["goods_Del"] = "no";
-            $g_new = $goods->where($g_map)->order("goods_date asc")->field(array('goods_id','goods_pic'))->limit(5)->select();  //新品推荐
+            $g_new = $goods->where($g_map)->order("goods_id asc")->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->limit(5)->select();  //新品推荐
 
-            $g_all =  $goods->where($g_map)->field(array('goods_id','goods_pic'))->select();   //热销推荐
+            $g_all =  $goods->where($g_map)->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->select();   //热销推荐
             //计算销售量
             foreach ($g_all as $key => $item) {
                 $i_map["goods_id"] = $item[goods_id];
@@ -141,6 +142,8 @@ class IndexController extends Controller {
                 $cnt++;
                 if($cnt == 5) break;
             }
+            $this->assign("new_view",array_slice($g_new,0,4));
+            $this->assign('rexiao_view',array_slice($g_rexiao,0,4));
             $this->assign("index_img",$b1_img["one_banner_pic"]);
             $this->assign("index_new_img",$b2_img["two_banner_pic"]);
             $this->assign("index_rexiao_img",$b3_img["three_banner_pic"]);
