@@ -66,9 +66,11 @@ layui.define(['layer','jquery'], function (exports) {
                     switch (cls) {
                         case 'add layui-btn':
                             input.value = val + 1;
-                            $.post("/api/index.php/goodsplus.do",{"goods_id":parseInt(goods_id.value)},function(res){
+                            $.post("/snackshop/index.php/goodsplus",{"goods_id":parseInt(goods_id.value)},function(res){
                                 if(res.code == 0) {
-                                    console.log(111);
+                                    // console.log(111);
+                                } else {
+                                    layer.msg("default",{icon:2,time:3000,shade:0.4})
                                 }
                                 return false;
                             })
@@ -77,10 +79,13 @@ layui.define(['layer','jquery'], function (exports) {
                         case 'less layui-btn':
                             if (val > 1) {
                                 input.value = val - 1;
-                                $.post("/api/index.php/goodsminus.do",{"goods_id":parseInt(goods_id.value)},function(res){
+                                $.post("/snackshop/index.php/goodsminus",{"goods_id":parseInt(goods_id.value)},function(res){
                                     if(res.code == 0) {
-                                        console.log(111);
+                                        // console.log(111);
+                                    } else {
+                                        layer.msg("default",{icon:2,time:3000,shade:0.4})
                                     }
+                                    return false
                                 })
                             }
                             getSubTotal(this)
@@ -88,11 +93,11 @@ layui.define(['layer','jquery'], function (exports) {
                         case 'dele-btn':
                             layer.confirm('你确定要删除吗', {
                                 yes: function (index, layero) {
-                                    $.post("/api/index.php/goodsdel.do",{"goods_id":parseInt(goods_id.value)},function(res){
+                                    $.post("/snackshop/index.php/goodsdel",{"goods_id":parseInt(goods_id.value)},function(res){
                                         if(res.code == 0) {
                                             layer.msg("删除购物车商品成功,请重新加载页面",{icon:1,shade:0.4,time:3000},function() {
                                                 layer.close(index)
-                                                that.parentNode.removeChild(that);
+                                                that.parentNode.removeChild(that)
                                             });
                                         }
                                     })
