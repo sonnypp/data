@@ -257,6 +257,12 @@ class IndexController extends Controller {
         $this->assign("logo_img",$logo_pic["logo_pic"]);
         $this->assign("user",$user);
         $this->assign("num",$num);
+
+
+        $film = M('film');
+        $f_map['p_is_first'] = 1;
+        $fone = $film->where($f_map)->find();
+        $this->assign('film',$fone);
         $this->display();
     }
 
