@@ -25,7 +25,7 @@ class OrderController extends Controller
         $start = $limit * ($page - 1);
 //        echo $ccount;
         $ccount = count($order->select());
-        $data = $order->limit($start,$limit) ->select();
+        $data = $order->order('order_id desc')->limit($start,$limit) ->select();
 
         $list["msg"] = "";
         $list["code"] = 0;

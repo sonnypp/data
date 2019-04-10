@@ -29,7 +29,7 @@ class InformationController extends Controller
 
 
         $ccount = count($information->select());
-        $data = $information->limit($start, $limit)->select();
+        $data = $information->order('information_id desc')->limit($start, $limit)->select();
 
         foreach ($data as $key => $value) {
 //            $data[$key]['information_pic'] = '/api/public' . $value["information_pic"];

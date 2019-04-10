@@ -25,7 +25,7 @@ class GonggaoController extends Controller
         $map['gonggao_del'] = "no";
         $ccount = count($gonggao->where($map)->select());
 
-        $data = $gonggao->limit($start,$limit) ->where($map)->select();
+        $data = $gonggao->where($map)->order('gonggao_id desc')->limit($start,$limit) ->select();
 
         $res["code"] = 0;
         $res["msg"] = "";

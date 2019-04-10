@@ -72,7 +72,7 @@
             //开启分页
             page: true,
             //默认每页10条数据
-            limit: 10,
+            limit: 15,
         });
 
         //编辑修改零食价格
@@ -83,9 +83,9 @@
             data["goods_shichangjia"] = value;
             $.post("/api/admin.php/good/modify",data,function(res){
                 if(res.code == 0) {
-                    layer.msg("零食价格修改成功");
+                    layer.msg("零食价格修改成功",{icon:1,time:3000,shade:0.4});
                 } else {
-                    layer.msg("零食价格变动失败");
+                    layer.msg("零食价格变动失败",{icon:2,time:3000,shade:0.4});
                 }
             },'json');
         })
@@ -99,10 +99,10 @@
                     $.post("/api/admin.php/good/del", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("下架成功，请刷新页面",{icon:1});
+                            layer.msg("下架成功，请刷新页面",{icon:1,time:3000,shade:0.4});
                             layer.close(index);
                         } else {
-                            layer.msg("下架失败",{icon:2});
+                            layer.msg("下架失败",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 
@@ -112,10 +112,10 @@
                     $.post("/api/admin.php/good/shelf", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("上架成功，请刷新页面",{icon:1});
+                            layer.msg("上架成功，请刷新页面",{icon:1,time:3000,shade:0.4});
                             layer.close(index);
                         } else {
-                            layer.msg("上架失败",{icon:2});
+                            layer.msg("上架失败",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 

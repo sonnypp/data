@@ -75,11 +75,11 @@
                     $.post("/api/admin.php/liuyan/del", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("删除成功",{icon:1,shade:0.4});
+                            layer.msg("删除成功",{icon:1,time:3000,shade:0.4});
                             obj.del();
                             layer.close(index);
                         } else {
-                            layer.msg("删除失败",{icon:2,shade:0.4});
+                            layer.msg("删除失败",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 
@@ -90,10 +90,10 @@
                     $.post("/api/admin.php/liuyan/confirm", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("审核已通过，请刷新页面",{icon:1,shade:0.4});
+                            layer.msg("审核已通过，请刷新页面",{icon:1,time:3000,shade:0.4});
                             layer.close(index);
                         } else {
-                            layer.msg("审核出现问题",{icon:2,shade:0.4});
+                            layer.msg("审核出现问题",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 
@@ -104,10 +104,10 @@
                     $.post("/api/admin.php/liuyan/confirm", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("审核成功，请刷新页面",{icon:1,shade:0.4});
+                            layer.msg("审核成功，请刷新页面",{icon:1,time:3000,shade:0.4});
                             layer.close(index);
                         } else {
-                            layer.msg("审核出现问题",{icon:2,shade:0.4});
+                            layer.msg("审核出现问题",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 

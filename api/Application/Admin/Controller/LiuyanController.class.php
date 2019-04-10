@@ -24,7 +24,7 @@ class LiuyanController extends Controller
         $start = $limit * ($page - 1);
 
         $ccount = count($liuyan->select());
-        $data = $liuyan->limit($start,$limit)->select();
+        $data = $liuyan->order('liuyan_id desc')->limit($start,$limit)->select();
         $res["code"] = 0;
         $res["msg"] = "";
         $res["count"] = $ccount;

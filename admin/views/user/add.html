@@ -81,9 +81,7 @@
             $.post("/api/admin.php/user/add", field, function (result) {
                 // 请求处理
                 if (result['code'] == 0) {
-                    layer.msg("添加成功",{icon:1,time:3000,shade:0.4},function(){
-                        window.location.href="/admin/#/user/list";
-                    });
+                    layer.msg("添加成功",{icon:1,time:3000,shade:0.4});
                 } else if (result['code'] == 101) {
                     layer.msg("用户已存在",{icon:2,time:3000,shade:0.4});
                 } else {

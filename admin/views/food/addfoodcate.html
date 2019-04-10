@@ -49,11 +49,9 @@
                 // 请求处理
                 if(result['code'] == 0) {
                     form.render(null,"formAddFilter");
-                    layer.msg("添加成功",{icon:1,time:4000,shade:0.4},function(){
-                        window.localtion.href = "#/food/catelist";
-                    });
+                    layer.msg("添加成功",{icon:1,time:3000,shade:0.4});
                 } else {
-                    layer.msg("添加失败",{icon:2,time:4000,shade:0.4});
+                    layer.msg("添加失败",{icon:2,time:3000,shade:0.4});
                 }
             },'json');
             return false;
