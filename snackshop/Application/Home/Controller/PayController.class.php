@@ -81,7 +81,8 @@ class PayController extends Controller
         $p6_Pcat = ""; // 商品种类
         $p7_Pdesc = ""; // 商品介绍
         // 只是易宝支付成功后，给url返回信息
-        $p8_Url = "http://127.0.0.1/snackshop/index.php/pay/res";
+        $p8_Url = "http://".$_SERVER['SERVER_NAME']."/snackshop/index.php/pay/res";
+//        var_dump($p8_Url);exit;
         $p9_SAF = "0"; // 送货地址
         $pa_MP = ""; // 额外介绍
         $pd_FrpId = I("post.pd_FrpId"); // 支付通道
@@ -251,12 +252,49 @@ class PayController extends Controller
 //                var_dump($o_Res);
 //                exit;
                 if($o_Res) {
+                    $week=date("w",time( ));
                     foreach ($shop_car as $k => $item) {
                         $orderitem = M("orderitem");
+                        //销售量 销售额统计
+                        $sales = M("sales");
+                        $salesvolume = M("salesvolume");
+                        $map["data_catelog_id"] = $item["goods_catelog_id"];
+                        $map["data_week"] = $week;
+
                         $i_Data["order_id"] = $o_Res;
                         $i_Data["goods_id"] = $item["goods_id"];
                         $i_Data["goods_quantity"] = $item["quantity"];
                         $i_Res = $orderitem->data($i_Data)->add();
+
+                        if($i_Res) {
+                            $flag = $sales->where($map)->find();
+                            $cur = 0;
+                            if($flag) {
+                                $data_sales["data_total"] = intval($flag["data_total"]) + intval($item["sum"]);
+                                if($sales->where($map)->data($data_sales)->save()){
+                                    $cur = 1;
+                                }
+                            } else {
+                                $data_sales["data_catelog_id"] = $item["goods_catelog_id"];
+                                $data_sales["data_week"] = $week;
+                                $data_sales["data_total"] =  intval($item["sum"]);
+                                if($sales->data($data_sales)->add()) {
+                                    $cur = 1;
+                                }
+                            }
+                            if($cur) {
+                                $flag_volume = $salesvolume->where($map)->find();
+                                if($flag_volume){
+                                    $data_salesvolume["data_num"] = intval($flag_volume["data_num"]) + intval($item["quantity"]);
+                                    $salesvolume->where($map)->data($data_salesvolume)->save();
+                                } else {
+                                    $data_salesvolume["data_catelog_id"] = $item["goods_catelog_id"];
+                                    $data_salesvolume["data_week"] = $week;
+                                    $data_salesvolume["data_num"] = intval($item["quantity"]);
+                                    $salesvolume->data($data_salesvolume)->add();
+                                }
+                            }
+                        }
                     }
                     if($i_Res) {
                         session("shop_cart",array());

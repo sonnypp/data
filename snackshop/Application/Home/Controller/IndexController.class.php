@@ -29,7 +29,7 @@ class IndexController extends Controller {
         $cate = $catelog->where($map)->select();  //商品类别
 
         $g_map["goods_Del"] = "no";
-        $g_new = $goods->where($g_map)->order("goods_id asc")->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->limit(5)->select();  //新品推荐
+        $g_new = $goods->where($g_map)->order("goods_id desc")->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->limit(5)->select();  //新品推荐
 
         $g_all =  $goods->where($g_map)->field(array('goods_id','goods_pic','goods_name','goods_shichangjia'))->select();   //热销推荐
         //计算销售量
