@@ -27,7 +27,9 @@ class LiuyanController extends Controller
         $page = $p->show();
 
         $liuyan_list = $liuyan->where($map)->order('liuyan_id desc')->limit($p->firstRow,$p->listRows)->select();
-
+        foreach ($liuyan_list as $k => $v) {
+            $liuyan_list[$k]['liuyan_content'] = htmlspecialchars_decode($v["liuyan_content"]);
+        }
         //购物车
         $shop_car = I("session.shop_cart");
         if(!$shop_car) {

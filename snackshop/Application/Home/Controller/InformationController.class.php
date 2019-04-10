@@ -30,9 +30,11 @@ class InformationController extends Controller
         $p->lastSuffix = false;//最后一页不显示为总页数
         $page = $p->show();
 
-        $infor_list = $information->where($map)->limit($p->firstRow.','.$p->listRows)->select();
+        $infor_list = $information->where($map)->order('information_id desc')->limit($p->firstRow.','.$p->listRows)->select();
 
-
+        foreach ($infor_list as $k => $v) {
+            $infor_list[$k]['information_content'] = htmlspecialchars_decode($v['information_content']);
+        }
         //购物车
         $shop_car = I("session.shop_cart");
         if(!$shop_car) {
