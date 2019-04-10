@@ -38,6 +38,7 @@ return array(
         "details" => "Good/detail",  //零食详情页
         "cgoods" => "Good/getbycatelog",  //根据零食类别获取零食
         "buytoday" => "Good/buytoday",  //新品推荐 热销推荐
+        "goods/search" => "Good/search",
 
         'addcart' => "Car/addTocar",   //购物车
         "goodsplus" => "Car/plus",

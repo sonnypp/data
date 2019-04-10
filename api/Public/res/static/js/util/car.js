@@ -98,9 +98,11 @@ layui.define(['layer','jquery'], function (exports) {
                                             layer.msg("删除购物车商品成功,请重新加载页面",{icon:1,shade:0.4,time:3000},function() {
                                                 layer.close(index)
                                                 that.parentNode.removeChild(that)
+                                                getTotal()
                                             });
                                         }
                                     })
+
                                 }
                             })
                             break;
@@ -115,6 +117,7 @@ layui.define(['layer','jquery'], function (exports) {
                             layer.close(index)
                             for (var i = 0; i < uls.length; i++) {
                                 var input = uls[i].getElementsByTagName('input')[0];
+                                console.log(input);
                                 if (input.checked) {
                                     uls[i].parentNode.removeChild(uls[i]);
                                     i--;

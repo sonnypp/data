@@ -39,15 +39,6 @@
             border-color:#50A8E6;
         }
 
-        .video {
-            display: block;
-            width: 80%;
-            height: auto;
-        }
-
-        .margin15 {
-            margin: 15px;
-        }
     </style>
 </head>
 <body>
@@ -86,14 +77,22 @@
                 </a>
             </h1>
             <div class="mallSearch">
-                <form action="" class="layui-form" novalidate>
-                    <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+                <form action="{:U('/goods/search')}" method="post" class="layui-form">
+                    <input type="text" name="key_word" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
                     <button class="layui-btn" lay-submit lay-filter="formDemo">
                         <i class="layui-icon layui-icon-search"></i>
                     </button>
-                    <input type="hidden" name="" value="">
                 </form>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    layui.config({
+        base: '__PUBLIC__res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    }).use(['mm', 'jquery'], function () {
+        var $ = layui.jquery
+
+    });
+</script>

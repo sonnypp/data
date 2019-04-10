@@ -77,7 +77,58 @@ class GoodController extends Controller
         $this->display();
     }
 
+    /**
+     * 查询
+     */
+    public function search()
+    {
+        $goods = M('goods');
+        $catelog = M("catelog");
+        $order_item = M("orderitem");
+        $map["catelog_del"] = "no";
+        $result = $catelog->where($map)->select();
+        $key_word = I('post.key_word');
+        $g_map['goods_name | goods_miaoshu'] = array('like','%'.$key_word.'%');
+        $g_map['goods_Del'] = 'no';
 
+        $food = $goods->where($g_map)->select();
+
+        //计算销售量
+        foreach ($food as $key => $item) {
+            $i_map["goods_id"] = $item[goods_id];
+            $i_list = $order_item->where($i_map)->select();
+
+            $cnt = 0;
+            foreach ($i_list as $k => $v) {
+                $cnt+=$v[goods_quantity];
+            }
+            $food[$key]["xiaoshouliang"] = $cnt;
+        }
+
+
+        //购物车
+        $shop_car = I("session.shop_cart");
+        if(!$shop_car) {
+            $num = 0;
+        } else {
+            $num = count($shop_car);
+        }
+
+        //获取用户信息
+        $user = I("session.user");
+        $logo = M("logo");
+        $l_map["logo_isInstead"] = "yes";
+        $logo_pic = $logo->where($l_map)->find();
+        $this->assign("logo_img",$logo_pic["logo_pic"]);
+
+        $this->assign("user",$user);
+        $this->assign("num",$num);
+        $this->assign("list",$result);
+        $this->assign('goods',$food);
+        $this->assign('res_name','搜索关键字');
+        $this->assign('key_word',$key_word);
+        $this->display();
+    }
     /**
      *根据零食类别查询零食
      */
@@ -153,6 +204,7 @@ class GoodController extends Controller
         $goods = M("goods");
         $map["goods_id"] = $goods_id;
         $fd = $goods->where($map)->find();
+        $fd["goods_miaoshu"] = htmlspecialchars_decode($fd["goods_miaoshu"]);
         //购物车
         $shop_car = I("session.shop_cart");
         if(!$shop_car) {
