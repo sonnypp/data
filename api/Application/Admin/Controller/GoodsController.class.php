@@ -75,6 +75,7 @@ class GoodsController extends Controller
         $ccount = count($food->select());
         $data = $food->limit($start, $limit)->select();
         foreach ($data as $key => $value) {
+            $data[$key]['goods_miaoshu'] = htmlspecialchars_decode($value['goods_miaoshu']);
             $data[$key]['goods_cate'] = $catelog[$value["goods_catelog_id"]];
             $data[$key]['goods_pic'] = '/api/public' . $value["goods_pic"];
             $data[$key]['pic'] = '/api/public' . $value["goods_pic"];

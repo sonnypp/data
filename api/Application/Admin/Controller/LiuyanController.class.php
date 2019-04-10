@@ -25,6 +25,10 @@ class LiuyanController extends Controller
 
         $ccount = count($liuyan->select());
         $data = $liuyan->order('liuyan_id desc')->limit($start,$limit)->select();
+        foreach ($data as $k => $v) {
+            $data[$k]['liuyan_content'] = htmlspecialchars_decode($v['liuyan_content']);
+        }
+
         $res["code"] = 0;
         $res["msg"] = "";
         $res["count"] = $ccount;

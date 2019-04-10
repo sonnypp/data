@@ -32,14 +32,14 @@ class InformationController extends Controller
         $data = $information->order('information_id desc')->limit($start, $limit)->select();
 
         foreach ($data as $key => $value) {
-//            $data[$key]['information_pic'] = '/api/public' . $value["information_pic"];
+            $data[$key]['information_content'] = htmlspecialchars_decode($value['information_content']);
             $data[$key]['pic'] = '/api/public' . $value["information_pic"];
         }
         $list["msg"] = "";
         $list["code"] = 0;
         $list["count"] = $ccount;
         $list["data"] = $data;
-        echo $this->ajaxReturn($list,'json');
+        echo $this->ajaxReturn($list, 'json');
     }
 
     /**
@@ -50,13 +50,13 @@ class InformationController extends Controller
         $data["information_name"] = I("post.information_name");
         $data["information_content"] = I("post.information_content");
         $data["information_pic"] = I("post.i_picture");
-        $data["information_date"] = date("Y-m-d H:i:s",time());
+        $data["information_date"] = date("Y-m-d H:i:s", time());
 
         $information = M("information");
 
         $result = $information->data($data)->add();
 
-        if($result) {
+        if ($result) {
 
             $res["code"] = 0;
             $res["msg"] = "";
@@ -66,7 +66,7 @@ class InformationController extends Controller
             $res["msg"] = "数据有误";
             $res["data"] = "";
         }
-        $this->ajaxReturn($res,"json");
+        $this->ajaxReturn($res, "json");
     }
 
     /**
@@ -81,7 +81,7 @@ class InformationController extends Controller
 
         $result = $information->where($map)->save($data);
 
-        if($result) {
+        if ($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
@@ -90,7 +90,7 @@ class InformationController extends Controller
             $res["msg"] = "";
             $res["data"] = "";
         }
-        $this->ajaxReturn($res,"json");
+        $this->ajaxReturn($res, "json");
     }
 
     /**
@@ -105,7 +105,7 @@ class InformationController extends Controller
 
         $result = $information->where($map)->save($data);
 
-        if($result) {
+        if ($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
@@ -114,7 +114,7 @@ class InformationController extends Controller
             $res["msg"] = "";
             $res["data"] = "";
         }
-        $this->ajaxReturn($res,"json");
+        $this->ajaxReturn($res, "json");
     }
 
 }
