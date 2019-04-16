@@ -30,7 +30,7 @@ class PictureController extends Controller
         $data = $banner->limit($start,$limit) ->where($map)->select();
 
         foreach ($data as $key => $value) {
-            $data[$key]['pic'] = '/api/public' . $value["one_banner_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["one_banner_pic"];
         }
 
         $res["code"] = 0;
@@ -138,7 +138,7 @@ class PictureController extends Controller
 
         $data = $banner->limit($start,$limit) ->where($map)->select();
         foreach ($data as $key => $value) {
-            $data[$key]['pic'] = '/api/public' . $value["two_banner_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["two_banner_pic"];
         }
 
         $res["code"] = 0;
@@ -246,7 +246,7 @@ class PictureController extends Controller
 
         $data = $banner->limit($start,$limit) ->where($map)->select();
         foreach ($data as $key => $value) {
-            $data[$key]['pic'] = '/api/public' . $value["three_banner_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["three_banner_pic"];
         }
         $res["code"] = 0;
         $res["msg"] = "";
@@ -356,7 +356,7 @@ class PictureController extends Controller
 
         $data = $banner->limit($start,$limit) ->where($map)->select();
         foreach ($data as $key => $value) {
-            $data[$key]['pic'] = '/api/public' . $value["four_banner_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["four_banner_pic"];
         }
         $res["code"] = 0;
         $res["msg"] = "";
@@ -464,7 +464,7 @@ class PictureController extends Controller
 
         $data = $banner->limit($start,$limit) ->where($map)->select();
         foreach ($data as $key => $value) {
-            $data[$key]['pic'] = '/api/public' . $value["logo_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["logo_pic"];
         }
         $res["code"] = 0;
         $res["msg"] = "";

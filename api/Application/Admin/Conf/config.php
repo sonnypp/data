@@ -5,7 +5,7 @@ return array(
     //自定义路径常量的配置项
     'TMPL_PARSE_STRING' =>  array(
         '__STATIC__'=>'/api/Public/static',
-        '__UPLOAD__'=>'/api/Pulic/upload'
+        '__UPLOAD__'=>'/api/Public/upload'
     ),
 
     //设置默认允许访问模块

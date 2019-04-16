@@ -77,8 +77,8 @@ class GoodsController extends Controller
         foreach ($data as $key => $value) {
             $data[$key]['goods_miaoshu'] = htmlspecialchars_decode($value['goods_miaoshu']);
             $data[$key]['goods_cate'] = $catelog[$value["goods_catelog_id"]];
-            $data[$key]['goods_pic'] = '/api/public' . $value["goods_pic"];
-            $data[$key]['pic'] = '/api/public' . $value["goods_pic"];
+            $data[$key]['goods_pic'] = '/api/Public' . $value["goods_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["goods_pic"];
         }
         $list["msg"] = "";
         $list["code"] = 0;

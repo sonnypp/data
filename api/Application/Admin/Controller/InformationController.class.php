@@ -33,7 +33,7 @@ class InformationController extends Controller
 
         foreach ($data as $key => $value) {
             $data[$key]['information_content'] = htmlspecialchars_decode($value['information_content']);
-            $data[$key]['pic'] = '/api/public' . $value["information_pic"];
+            $data[$key]['pic'] = '/api/Public' . $value["information_pic"];
         }
         $list["msg"] = "";
         $list["code"] = 0;
