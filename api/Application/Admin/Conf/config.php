@@ -98,7 +98,12 @@ return array(
         'logo/del' => 'Picture/dellogo',
 
         'data/sales' => 'Data/sales',
-        'data/salesvolume' => 'Data/salesvolume'
+        'data/salesvolume' => 'Data/salesvolume',
+
+        'film/list' => 'Film/flist',  //宣传片路由
+        'film/modify' => 'Film/fmodify',
+        'film/del' => 'Film/fdele',
+        'film/add' => 'Film/fadd',
     )
 
 );

@@ -1,0 +1,61 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>宣传片添加</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <form class="layui-form" lay-filter="formAddFilter">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">宣传片名字</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="p_name" placeholder="请输入宣传片名字.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">宣传片地址</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="p_address" placeholder="请输入宣传片地址.." autocomplete="off" class="layui-input" required>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="form_add"> 添加 </button>
+                                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    layui.use(['jquery',  'form'], function () {
+        var $ =layui.jquery,form = layui.form;
+        form.render(null,"formAddFilter");
+        form.on('submit(form_add)',function(data) {
+            var field = data.field;
+            if(field.p_name == "" || field.p_address == "") {
+                return layer.msg("数据不能为空",{icon:2,time:3000,shade:0.4});
+            }
+            $.post("/api/admin.php/film/add", field, function (result) {
+                // 请求处理
+                if (result['code'] == 0) {
+                    layer.msg("添加成功",{icon:1,time:3000,shade:0.4});
+                } else if (result['code'] == 103) {
+                    layer.msg("已存在",{icon:2,time:3000,shade:0.4});
+                } else {
+                    layer.msg("数据请求出错",{icon:2,time:3000,shade:0.4});
+                }
+            }, 'json');
+            return false;
+        });
+    });
+</script>

@@ -134,11 +134,11 @@
                     $.post("/api/admin.php/user/del", data, function(result) {
                         // 请求处理
                         if(result['code'] == 0) {
-                            layer.msg("删除成功");
+                            layer.msg("删除成功",{icon:1,time:3000,shade:0.4});
                             obj.del();
                             layer.close(index);
                         } else {
-                            layer.msg("删除失败");
+                            layer.msg("删除失败",{icon:2,time:3000,shade:0.4});
                         }
                     },'json');
 
@@ -162,9 +162,7 @@
                             $.post("/api/admin.php/user/modify", field, function(result) {
                                 // 请求处理
                                 if(result['code'] == 0) {
-                                    layer.msg("修改成功",{icon:1,time:3000,shade:0.4},function() {
-                                        window.location.href="/admin/#/user/list";
-                                    });
+                                    layer.msg("修改成功",{icon:1,time:3000,shade:0.4});
                                 } else {
                                     layer.msg("修改失败",{icon:2,time:3000,shade:0.4});
                                 }

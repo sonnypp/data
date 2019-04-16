@@ -1,0 +1,106 @@
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-xs12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div class="layui-card-header">
+                        <span>宣传片列表</span>
+                    </div>
+                    <div class="layui-card-body">
+                        <table class="layui-hide" id="filmlist" lay-filter="filmlist"></table>
+                        <!--  前端动态表格工具栏--->
+                        <script type="text/html" id="filmBar">
+                            <a class="layui-btn layui-btn-success layui-btn-xs" lay-event="using">使用</a>
+                            <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="dele">删除</a>
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    layui.use(['jquery',  'table', 'sidebar', 'form'], function () {
+        var $ = layui.jquery,
+            layer = layui.layer,
+            table = layui.table,
+            sidebar = layui.sidebar,
+            form = layui.form;
+        //动态创建表格
+        table.render({
+            //选择表格的id
+            elem: '#filmlist',
+            //选择表格调用的接口，该接口返回数据类型为json，同时默认向该接口传送分页等信息，详情见后端TP代码
+            url: "/api/admin.php/film/list",
+            title: '宣传片列表',
+            //此ID用于数据表格重载时使用，比如进行查询需要重载表格数据
+            id: 'filmlist',
+            //表格样式，隔行换色
+            even: true,
+            //表头部分
+            cols: [[
+                {field: 'p_id', title: 'ID', fixed: 'left', width: 130, align: 'center'},
+                {field: 'p_name', title: '宣传片标题', width: 150, align: 'center'},
+                {field: 'p_address', title: '宣传片地址', width: 350, align: 'center'},
+                {field: 'p_is_first', title: '是否使用', width: 100, align: 'center',templet:function(d){
+                        if(d.p_is_first == '0') {
+                            return '<p class="layui-text layui-bg-red">未使用</p>';
+                        }else {
+                            return '<p class="layui-text layui-bg-green">使用中</p>';
+                        }
+                    }},
+                {fixed: 'right', title: '操作', toolbar: '#filmBar', align: 'center'}
+            ]],
+            //开启分页
+            page: true,
+            //默认每页10条数据
+            limit: 10,
+        });
+
+
+        //工具栏监听事件
+        table.on('tool(filmlist)', function (obj) {
+            var data = obj.data;
+            // console.log(data);
+            if (obj.event === 'using') {
+                layer.confirm('确定使用吗？', function (index) {
+                    $.post("/api/admin.php/film/modify", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("使用成功，请刷新页面",{icon:1,time:3000,shade:0.4});
+                            layer.close(index);
+                        } else {
+                            layer.msg("使用失败",{icon:2,time:3000,shade:0.4});
+                        }
+                    },'json');
+
+                });
+            }else if(obj.event === 'dele') {
+                layer.confirm('确定删除吗？', function (index) {
+                    $.post("/api/admin.php/film/del", data, function(result) {
+                        // 请求处理
+                        if(result['code'] == 0) {
+                            layer.msg("删除成功，请刷新页面",{icon:1,time:3000,shade:0.4},function () {
+                                obj.del();
+                                layer.close(index);
+                            });
+                        }else if(result['code'] == 101){
+                            layer.msg("宣传片使用中...",{icon:2,time:3000,shade:0.4});
+                            layer.close(index);
+                        } else {
+                            layer.msg("删除失败",{icon:2,time:3000,shade:0.4});
+                            layer.close(index);
+                        }
+                    },'json');
+
+                });
+            }
+        });
+    });
+</script>
+
+<style scoped>
+
+</style>

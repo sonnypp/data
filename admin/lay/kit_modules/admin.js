@@ -128,6 +128,14 @@ layui.define(mods, function (e) {
                     path:"/gonggao/list",
                     component:"views/gonggao/list.html",
                     name:"公告列表"
+                },{
+                    path:"/film/list",
+                    component:"views/film/list.html",
+                    name:"宣传片列表"
+                },{
+                    path:"/film/add",
+                    component:"views/film/add.html",
+                    name:"宣传片添加"
                 }]
             };
             return "TABS" === e.loadType && (a.onChanged = function () {
