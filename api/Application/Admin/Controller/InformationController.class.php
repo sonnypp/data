@@ -61,6 +61,11 @@ class InformationController extends Controller
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "管理员发布咨讯";
+            $g_data["gonggao_content"] = "管理员于".date("Y-m-d H:i:s",time())."发布零食咨讯《".$data["information_name"]."》，请大家注意查看~";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "数据有误";
@@ -78,13 +83,18 @@ class InformationController extends Controller
         $data["information_isShow"] = "1";
 
         $information = M("information");
-
+        $i_data = $information->where($map)->find();
         $result = $information->where($map)->save($data);
 
         if ($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "管理员发布咨讯";
+            $g_data["gonggao_content"] = "管理员于".date("Y-m-d H:i:s",time())."发布零食咨讯《".$i_data['information_name']."》，请大家注意查看~";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "";

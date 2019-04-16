@@ -95,12 +95,18 @@ class GoodsController extends Controller
 
         $goods = M("goods");
 
+        $g_data = $goods->where($map)->find();
         $result = $goods->where($map)->save($data);
 
         if($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "商家零食下架";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."下架零食《".$g_data['goods_name']."》，请大家注意~";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "";
@@ -115,13 +121,18 @@ class GoodsController extends Controller
         $data["goods_Del"] = "no";
 
         $goods = M("goods");
-
+        $g_data = $goods->where($map)->find();
         $result = $goods->where($map)->save($data);
 
         if($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "商家零食上架";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."上架零食《".$g_data['goods_name']."》，请大家注意~";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "";
@@ -136,13 +147,18 @@ class GoodsController extends Controller
         $map["goods_id"] = I("post.goods_id");
         $data["goods_shichangjia"] = I("post.goods_shichangjia");
         $goods = M("goods");
-
+        $g_data = $goods->where($map)->find();
         $result = $goods->where($map)->save($data);
 
         if($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "商家零食价格变动";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."变动零食《".$g_data['goods_name']."》价格，请大家注意~";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "";

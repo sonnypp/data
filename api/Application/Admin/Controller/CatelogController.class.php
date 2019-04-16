@@ -61,6 +61,11 @@ class CatelogController extends Controller
                 $res["code"] = 0;
                 $res["msg"] = "添加成功";
                 $res["data"] = "";
+                $gonggao = M('gonggao');
+                $g_data["gonggao_title"] = "商家添加零食类型";
+                $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."添加零食类型《".$data['catelog_name']."》";
+                $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+                $gonggao->data($g_data)->add();
 
             } else {
                 $res["code"] = 102;
@@ -90,7 +95,11 @@ class CatelogController extends Controller
                 $res["code"] = 0;
                 $res["msg"] = "";
                 $res["data"] = "";
-
+                $gonggao = M('gonggao');
+                $g_data["gonggao_title"] = "商家修改零食类型";
+                $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."修改零食类型《".$data['catelog_name']."》";
+                $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+                $gonggao->data($g_data)->add();
             } else {
                 $res["code"] = 102;
                 $res["msg"] = "出现错误";
@@ -110,11 +119,17 @@ class CatelogController extends Controller
         $map["catelog_id"] = $catelog_id;
         $cate = M("catelog");
         $data["catelog_del"] = "yes";
+        $c_data = $cate->where($map)->find();
         $result = $cate->where($map)->save($data);
         if ($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M('gonggao');
+            $g_data["gonggao_title"] = "商家删除零食类型";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."删除零食类型《".$c_data['catelog_name']."》";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "删除失败";

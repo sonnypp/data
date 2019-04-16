@@ -37,6 +37,11 @@ class UserController extends Controller
                 $res["code"] = 0;
                 $res["msg"] = "添加成功";
                 $res["data"] = "";
+                $gonggao = M("gonggao");
+                $g_data["gonggao_title"] = "商家添加用户";
+                $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."添加用户:".$data["user_realname"];
+                $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+                $gonggao->data($g_data)->add();
 
             } else {
                 $res["code"] = 102;
@@ -105,11 +110,18 @@ class UserController extends Controller
         $map["user_id"] = $user_id;
         $user = M("user");
         $data["user_del"] = "yes";
+        $u_data = $user->where($map)->find();
         $result = $user->where($map)->save($data);
+
         if($result) {
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M("gonggao");
+            $g_data["gonggao_title"] = "商家删除用户";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."删除用户:".$u_data["user_realname"];
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "删除失败";
@@ -134,12 +146,17 @@ class UserController extends Controller
         $map["user_id"] = $user_id;
 
         $user = M("user");//实例化User对象
-
+        $u_data = $user->where($map)->find();
         $result = $user->where($map)->save($data);
         if($result) {
             $res["code"] = 0;
             $res["msg"] = "修改成功";
             $res["data"] = "";
+            $gonggao = M("gonggao");
+            $g_data["gonggao_title"] = "商家修改用户";
+            $g_data["gonggao_content"] = "商家于".date("Y-m-d H:i:s",time())."修改用户:".$u_data["user_realname"];
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "修改失败";

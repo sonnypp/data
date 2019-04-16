@@ -27,6 +27,11 @@ class AdminController extends Controller
             $res["code"] = 0;
             $res["msg"] = "";
             $res["data"] = "";
+            $gonggao = M("gonggao");
+            $g_data["gonggao_title"] = "管理员登陆";
+            $g_data["gonggao_content"] = "管理员于".date("Y-m-d H:i:s",time())."登陆管理系统";
+            $g_data["gonggao_date"] = date("Y-m-d H:i:s",time());
+            $gonggao->data($g_data)->add();
         } else {
             $res["code"] = 102;
             $res["msg"] = "信息有误";
