@@ -54,7 +54,7 @@
                 <div class="login"><a href="{:U('/login')}">登录</a></div>
                 <div class="sp-cart"><a href="{:U('/shopcart')}">购物车</a><span><if condition="$num eq 0"> 0 <else /> {$num} </if></span></div>
                 <else />
-                     <div class="login">欢迎<a href="{:U('/logout')}">{$user["user_name"]}</a></div>
+                     <div class="login">欢迎<a href="{:U('/logout')}">{$user["user_name"]}</a>(点击退出)</div>
                      <div class="login"><a href="{:U('/myorder')}">我的订单</a> </div>
                      <div class="login"><a href="{:U('/mymessage')}">我的留言</a> </div>
                      <div class="login"><a href="{:U('/myinfo')}">修改密码</a> </div>

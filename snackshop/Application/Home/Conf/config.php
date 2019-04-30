@@ -63,6 +63,7 @@ return array(
 
         'pay/info' => 'Pay/info',   //支付路由
         'pay/confirm' => 'Pay/payview',
-        'pay/res' => 'Pay/payresview'
+        'pay/res' => 'Pay/payresview',
+        'pay/ress' => 'Pay/payres',
     )
 );

@@ -81,7 +81,7 @@ class PayController extends Controller
         $p6_Pcat = ""; // 商品种类
         $p7_Pdesc = ""; // 商品介绍
         // 只是易宝支付成功后，给url返回信息
-        $p8_Url = "http://".$_SERVER['SERVER_NAME']."/snackshop/index.php/pay/res";
+        $p8_Url = "http://" . $_SERVER['SERVER_NAME'] . "/snackshop/index.php/pay/res";
 //        var_dump($p8_Url);exit;
         $p9_SAF = "0"; // 送货地址
         $pa_MP = ""; // 额外介绍
@@ -170,7 +170,6 @@ class PayController extends Controller
         $hmac = HmacMd5($data, $merchantKey);
         $res["hmac"] = $hmac;
 
-        //购物车
         if (empty($user) || $user == null) {
             $this->display("Index:login");
 
@@ -238,10 +237,10 @@ class PayController extends Controller
                 $o_Data["order_bianhao"] = $r6_Order;
                 $o_map["order_bianhao"] = $r6_Order;
                 $flag = $order->where($o_map)->find();
-                if($flag) {
+                if ($flag) {
                     $o_Res = 0;
                 } else {
-                    $o_Data["order_date"] = date("Y-m-d H:i:s",time());
+                    $o_Data["order_date"] = date("Y-m-d H:i:s", time());
                     $o_Data["order_songhuodizhi"] = $user["user_address"];
                     $o_Data["order_fukuangfangshi"] = $payway;
                     $o_Data["order_jine"] = $sum;
@@ -251,8 +250,8 @@ class PayController extends Controller
 
 //                var_dump($o_Res);
 //                exit;
-                if($o_Res) {
-                    $week=date("w",time( ));
+                if ($o_Res) {
+                    $week = date("w", time());
                     foreach ($shop_car as $k => $item) {
                         $orderitem = M("orderitem");
                         //销售量 销售额统计
@@ -266,25 +265,25 @@ class PayController extends Controller
                         $i_Data["goods_quantity"] = $item["quantity"];
                         $i_Res = $orderitem->data($i_Data)->add();
 
-                        if($i_Res) {
+                        if ($i_Res) {
                             $flag = $sales->where($map)->find();
                             $cur = 0;
-                            if($flag) {
+                            if ($flag) {
                                 $data_sales["data_total"] = intval($flag["data_total"]) + intval($item["sum"]);
-                                if($sales->where($map)->data($data_sales)->save()){
+                                if ($sales->where($map)->data($data_sales)->save()) {
                                     $cur = 1;
                                 }
                             } else {
                                 $data_sales["data_catelog_id"] = $item["goods_catelog_id"];
                                 $data_sales["data_week"] = $week;
-                                $data_sales["data_total"] =  intval($item["sum"]);
-                                if($sales->data($data_sales)->add()) {
+                                $data_sales["data_total"] = intval($item["sum"]);
+                                if ($sales->data($data_sales)->add()) {
                                     $cur = 1;
                                 }
                             }
-                            if($cur) {
+                            if ($cur) {
                                 $flag_volume = $salesvolume->where($map)->find();
-                                if($flag_volume){
+                                if ($flag_volume) {
                                     $data_salesvolume["data_num"] = intval($flag_volume["data_num"]) + intval($item["quantity"]);
                                     $salesvolume->where($map)->data($data_salesvolume)->save();
                                 } else {
@@ -296,9 +295,9 @@ class PayController extends Controller
                             }
                         }
                     }
-                    if($i_Res) {
-                        session("shop_cart",array());
-                        session("payway",null);
+                    if ($i_Res) {
+                        session("shop_cart", array());
+                        session("payway", null);
                     }
                 }
 
@@ -320,6 +319,111 @@ class PayController extends Controller
 //                    echo '<br/>服务器点对点通讯';
                 }
             }
+        } else {
+            $res["code"] = 102;
+            $res["msg"] = '签名被篡改了！';
+            $res["order"] = "";
+            $res["jine"] = "";
+            $res["yeepaynum"] = "";
+//            echo '签名被篡改了';
+        }
+        $this->assign("data", $res);
+        $this->display();
+    }
+
+
+    public function payres()
+    {
+        session_start();
+        $payway = I("session.payway");
+        //购物车
+        $shop_car = I("session.shop_cart");
+
+        //获取用户信息
+        $user = I("session.user");
+
+        $logo = M("logo");
+        $l_map["logo_isInstead"] = "yes";
+        $logo_pic = $logo->where($l_map)->find();
+        $this->assign("logo_img", $logo_pic["logo_pic"]);
+        $this->assign("user", $user);
+
+        $sum = 0;
+        foreach ($shop_car as $k => $item) {
+            $sum += intval($item["sum"]);
+        }
+
+        $order = M("order");
+        $o_Data["order_bianhao"] = I('post.p2_Order');
+        $o_map["order_bianhao"] = I('post.p2_Order');
+        $flag = $order->where($o_map)->find();
+        if ($flag) {
+            $o_Res = 0;
+        } else {
+            $o_Data["order_date"] = date("Y-m-d H:i:s", time());
+            $o_Data["order_songhuodizhi"] = $user["user_address"];
+            $o_Data["order_fukuangfangshi"] = $payway;
+            $o_Data["order_jine"] = $sum;
+            $o_Data["order_user_id"] = $user["user_id"];
+            $o_Res = $order->data($o_Data)->add();
+        }
+
+//                var_dump($o_Res);
+//                exit;
+        if ($o_Res) {
+            $week = date("w", time());
+            foreach ($shop_car as $k => $item) {
+                $orderitem = M("orderitem");
+                //销售量 销售额统计
+                $sales = M("sales");
+                $salesvolume = M("salesvolume");
+                $map["data_catelog_id"] = $item["goods_catelog_id"];
+                $map["data_week"] = $week;
+
+                $i_Data["order_id"] = $o_Res;
+                $i_Data["goods_id"] = $item["goods_id"];
+                $i_Data["goods_quantity"] = $item["quantity"];
+                $i_Res = $orderitem->data($i_Data)->add();
+
+                if ($i_Res) {
+                    $flag = $sales->where($map)->find();
+                    $cur = 0;
+                    if ($flag) {
+                        $data_sales["data_total"] = intval($flag["data_total"]) + intval($item["sum"]);
+                        if ($sales->where($map)->data($data_sales)->save()) {
+                            $cur = 1;
+                        }
+                    } else {
+                        $data_sales["data_catelog_id"] = $item["goods_catelog_id"];
+                        $data_sales["data_week"] = $week;
+                        $data_sales["data_total"] = intval($item["sum"]);
+                        if ($sales->data($data_sales)->add()) {
+                            $cur = 1;
+                        }
+                    }
+                    if ($cur) {
+                        $flag_volume = $salesvolume->where($map)->find();
+                        if ($flag_volume) {
+                            $data_salesvolume["data_num"] = intval($flag_volume["data_num"]) + intval($item["quantity"]);
+                            $salesvolume->where($map)->data($data_salesvolume)->save();
+                        } else {
+                            $data_salesvolume["data_catelog_id"] = $item["goods_catelog_id"];
+                            $data_salesvolume["data_week"] = $week;
+                            $data_salesvolume["data_num"] = intval($item["quantity"]);
+                            $salesvolume->data($data_salesvolume)->add();
+                        }
+                    }
+                }
+            }
+            if ($i_Res) {
+                session("shop_cart", array());
+                session("payway", null);
+            }
+            $res["code"] = 0;
+            $res["msg"] = '交易成功！';
+            $res["order"] = I('post.p2_Order');
+            $res["jine"] = number_format($sum, 2, '.', '');;
+            $res["yeepaynum"] = date("YmdHis", time()) . randomkeys(8);
         } else {
             $res["code"] = 102;
             $res["msg"] = '签名被篡改了！';

@@ -24,7 +24,8 @@
             <legend>确认订单</legend>
         </fieldset>
 
-        <form class="layui-form" action="https://www.yeepay.com/app-merchant-proxy/node" lay-filter="confirmform" method="post">
+        <!--https://www.yeepay.com/app-merchant-proxy/node-->
+        <form class="layui-form" action="{:U('/pay/ress')}" lay-filter="confirmform" method="post">
             <div class="layui-form-item">
                 <input type="hidden" name="p0_Cmd" value="{$data['p0_Cmd']}"/>
             </div>
