@@ -18,7 +18,7 @@ return array(
     //设置默认访问方法
 
     //开启页面Trace
-    'SHOW_PAGE_TRACE' => TRUE ,
+    'SHOW_PAGE_TRACE' => FALSE ,
     'URL_ROUTER_ON' => TRUE,   //开启路由
     'URL_ROUTE_RULES' => array(  //定义路由规则
 //        "index" => "Index/index",
