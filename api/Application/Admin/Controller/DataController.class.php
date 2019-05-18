@@ -28,6 +28,10 @@ class DataController extends Controller
         $series = array();
         foreach ($cate as $k =>$v) {
             $series[$k] = array();
+            for ($i=0; $i < 7; $i++) { 
+                # code...
+                $series[$k][$i] = 0;
+            }
             foreach ($data as $k1 => $v1) {
                 if($v["catelog_id"] == $v1["data_catelog_id"]) {
                     $series[$k][$v1["data_week"]] = $v1["data_total"];
@@ -56,6 +60,10 @@ class DataController extends Controller
         $series = array();
         foreach ($cate as $k =>$v) {
             $series[$k] = array();
+            for ($i=0; $i < 7; $i++) { 
+                # code...
+                $series[$k][$i] = 0;
+            }
             foreach ($data as $k1 => $v1) {
                 if($v["catelog_id"] == $v1["data_catelog_id"]) {
                     $series[$k][$v1["data_week"]] = $v1["data_num"];
